@@ -63,8 +63,8 @@
 		D4AE647A2692A26000A96D97 /* Programmers */ = {
 			isa = PBXGroup;
 			children = (
-				D4AE64822692A30E00A96D97 /* 12944_CalCulatingAverage.swift */,
 				D4AE64842692A4D200A96D97 /* main.swift */,
+				D4AE64822692A30E00A96D97 /* 12944_CalCulatingAverage.swift */,
 				D4AE648D2692B44500A96D97 /* 12901_calendar.swift */,
 			);
 			path = Programmers;
