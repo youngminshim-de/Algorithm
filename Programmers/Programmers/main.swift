@@ -15,6 +15,12 @@ func solution(_ numbers: [Int]) -> String {
     return sorted.reduce(""){ $0+"\($1)" }
 }
 
-print(solution([6,10,2]))
-print(solution([3, 30, 34, 5, 9]))
-print(solution([3, 1000, 34, 5, 9]))
+//print(solution([6,10,2]))
+//print(solution([3, 30, 34, 5, 9]))
+//print(solution([3, 1000, 34, 5, 9]))
+//
+//print(Sort.selectedSort([3, 1000, 34, 5, 9]))
+//print(Sort.insertionSort([3, 1000, 34, 5, 9]))
+//print(Sort.bubbleSort([3, 1000, 34, 5, 9]))
+
+print(RomanToInteger.romanToInt("III"))

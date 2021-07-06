@@ -10,6 +10,9 @@
 		D4AE64862692A78900A96D97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64842692A4D200A96D97 /* main.swift */; };
 		D4AE648B2692AF6A00A96D97 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE648A2692AF6A00A96D97 /* TwoSum.swift */; };
 		D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE6493269308CD00A96D97 /* 42746_MostBigNumber.swift */; };
+		D4AE64962693FE2400A96D97 /* 42748_KthNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE648F2692E55800A96D97 /* 42748_KthNumber.swift */; };
+		D4AE64982694208500A96D97 /* RomanToInteger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64972694208500A96D97 /* RomanToInteger.swift */; };
+		D4AE649A26942BEC00A96D97 /* 42587_Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE649926942BEC00A96D97 /* 42587_Printer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -33,6 +36,8 @@
 		D4AE648F2692E55800A96D97 /* 42748_KthNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42748_KthNumber.swift; sourceTree = "<group>"; };
 		D4AE64912692EEAF00A96D97 /* 9237_InvitationVillageHead.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 9237_InvitationVillageHead.swift; sourceTree = "<group>"; };
 		D4AE6493269308CD00A96D97 /* 42746_MostBigNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42746_MostBigNumber.swift; sourceTree = "<group>"; };
+		D4AE64972694208500A96D97 /* RomanToInteger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RomanToInteger.swift; sourceTree = "<group>"; };
+		D4AE649926942BEC00A96D97 /* 42587_Printer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42587_Printer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +77,7 @@
 				D4AE648D2692B44500A96D97 /* 12901_calendar.swift */,
 				D4AE648F2692E55800A96D97 /* 42748_KthNumber.swift */,
 				D4AE6493269308CD00A96D97 /* 42746_MostBigNumber.swift */,
+				D4AE649926942BEC00A96D97 /* 42587_Printer.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -80,6 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				D4AE648A2692AF6A00A96D97 /* TwoSum.swift */,
+				D4AE64972694208500A96D97 /* RomanToInteger.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -149,9 +156,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4AE64962693FE2400A96D97 /* 42748_KthNumber.swift in Sources */,
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
 				D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */,
 				D4AE648B2692AF6A00A96D97 /* TwoSum.swift in Sources */,
+				D4AE64982694208500A96D97 /* RomanToInteger.swift in Sources */,
+				D4AE649A26942BEC00A96D97 /* 42587_Printer.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
