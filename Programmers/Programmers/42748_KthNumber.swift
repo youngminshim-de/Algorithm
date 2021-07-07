@@ -61,6 +61,51 @@ class Sort {
         }
         return sortedArray
     }
+    
+    static func mergeSort(_ array: [Int]) -> [Int] {
+        if array.count <= 1 {
+            return array
+        }
+        let center = array.count / 2
+        let left = Array(array[0..<center])
+        let right = Array(array[center..<array.count])
+        
+        func merge(_ left: [Int], _ right: [Int]) -> [Int] {
+            var left = left
+            var right = right
+            var result: [Int] = []
+            
+            while !left.isEmpty && !right.isEmpty {
+                if left[0] < right[0] {
+                    result.append(left.removeFirst())
+                } else {
+                    result.append(right.removeFirst())
+                }
+            }
+            if !left.isEmpty {
+                result.append(contentsOf: left)
+            }
+            
+            if !right.isEmpty {
+                result.append(contentsOf: right)
+            }
+            return result
+        }
+        return merge(mergeSort(left), mergeSort(right))
+    }
+    
+    static func quickSort(_ array: [Int]) -> [Int] {
+        // 배열이 비어있거나, 하나만 있는 경우는 이미 정렬되어있는 상태
+        guard let start = array.first, array.count > 1 else {
+            return array
+        }
+        
+        let key = start // pivot! 보통 첫번째 원소를 기준으로 잡는다.
+        let left = array.filter { $0 < key } // 피봇을 기준으로 같거나 작은 수들을 left에 담는다. [Int]
+        let right = array.filter{ $0 > key } // 피봇을 기준으로 같거나 큰 수들을 right에 담는다.
+        
+        return quickSort(left) + [key] + quickSort(right) // 위의 과정을 반복한다.
+    }
 }
 
 

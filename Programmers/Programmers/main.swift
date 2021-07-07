@@ -18,14 +18,6 @@ func solution(_ str: String) -> Int {
         prevString = tempString
     }
 }
-let input = readLine()!
-print(solution(input))
 
-//print(solution(")))()"))
-//print(solution(")(()"))
-//print(solution("))()(("))
-//print(solution(")(()(()))"))
-// String에서 ()을 뺀다 계속해서 없을때까지
-// 없을때까지를 어떻게 판단해야 할까... 흠...
-// ( 72 .. ) 73
-// 탈출조건을 어떻게 잡아야 되지
+print(Sort.mergeSort([5,1,3,4,30]))
+print(Sort.quickSort([5,1,3,4,30]))
