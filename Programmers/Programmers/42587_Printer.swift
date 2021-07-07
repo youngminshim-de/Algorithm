@@ -8,25 +8,51 @@
 import Foundation
 
 class Printer {
-    func solution(_ priorities:[Int], _ location:Int) -> Int {
+    
+    static func solution(_ priorities: [Int], _ location: Int) -> Int {
         var tempArray = priorities
         var count = 0
-        var isPrinted = false
-        
-        while !isPrinted {
-            for i in 1..<tempArray.count {
-                if tempArray.first! < tempArray[i] {
-                    var currentDocument = tempArray.removeFirst()
-                    tempArray.append(currentDocument)
-                    count += 1
-                    break
+        var isPrinted = true
+        priorities.contains(where: {$0 > priorities[0]})
+        while true {
+            for i in 0..<tempArray.count {
+                isPrinted = true
+                for j in 0..<tempArray.count {
+                    if tempArray[i] < tempArray[j] {
+                        isPrinted = false
+                        break
+                    }
                 }
+                if isPrinted && i == location {
+                    count += 1
+                    return count
+                } else if isPrinted {
+                    tempArray[i] = 0
+                    count += 1
+                }
+            }
+        }
+    }
+    
+    static func solution2(_ priorities:[Int], _ location: Int) -> Int {
+        var priorityArray = priorities
+        var first = 0
+        var targetIndex = location
+        
+        while priorityArray.count > 0 {
+            if priorityArray.contains(where: { $0 > priorityArray[0] }) {
+                first = priorityArray.removeFirst()
+                priorityArray.append(first)
+                targetIndex = targetIndex - 1 >= 0 ? targetIndex - 1 : priorityArray.count - 1
+            } else {
+                if targetIndex == 0 {
+                    return priorities.count - priorityArray.count + 1
+                }
+                
+                priorityArray.removeFirst()
+                targetIndex -= 1
             }
         }
         return 0
     }
 }
-
-// 일단 맨앞에꺼 꺼낸다.
-// 우선순위 뒤쳐져있으면 맨 뒤로 보낸다.
-// 우선순위 제일 높은놈이 나왔으면 인쇄한다.

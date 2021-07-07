@@ -23,4 +23,5 @@ func solution(_ numbers: [Int]) -> String {
 //print(Sort.insertionSort([3, 1000, 34, 5, 9]))
 //print(Sort.bubbleSort([3, 1000, 34, 5, 9]))
 
-print(RomanToInteger.romanToInt("III"))
+//print(RomanToInteger.romanToInt("III"))
+print(Printer.solution2([2,1,3,2], 2))
