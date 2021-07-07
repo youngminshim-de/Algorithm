@@ -7,21 +7,25 @@
 
 import Foundation
 
-func solution(_ numbers: [Int]) -> String {
-    let sorted: [Int] = numbers.sorted{ Int("\($0)\($1)")! > Int("\($1)\($0)")! }
-    if sorted[0] == 0 {
-        return "0"
+func solution(_ str: String) -> Int {
+    var tempString = str
+    var prevString = tempString
+    while true {
+        tempString = tempString.replacingOccurrences(of: "()", with: "")
+        if tempString == prevString {
+            return tempString.count
+        }
+        prevString = tempString
     }
-    return sorted.reduce(""){ $0+"\($1)" }
 }
+let input = readLine()!
+print(solution(input))
 
-//print(solution([6,10,2]))
-//print(solution([3, 30, 34, 5, 9]))
-//print(solution([3, 1000, 34, 5, 9]))
-//
-//print(Sort.selectedSort([3, 1000, 34, 5, 9]))
-//print(Sort.insertionSort([3, 1000, 34, 5, 9]))
-//print(Sort.bubbleSort([3, 1000, 34, 5, 9]))
-
-//print(RomanToInteger.romanToInt("III"))
-print(Printer.solution2([2,1,3,2], 2))
+//print(solution(")))()"))
+//print(solution(")(()"))
+//print(solution("))()(("))
+//print(solution(")(()(()))"))
+// String에서 ()을 뺀다 계속해서 없을때까지
+// 없을때까지를 어떻게 판단해야 할까... 흠...
+// ( 72 .. ) 73
+// 탈출조건을 어떻게 잡아야 되지
