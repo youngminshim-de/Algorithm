@@ -18,6 +18,4 @@ func solution(_ str: String) -> Int {
         prevString = tempString
     }
 }
-
-print(Sort.mergeSort([5,1,3,4,30]))
-print(Sort.quickSort([5,1,3,4,30]))
+print(PrimeNumber.solution("17"))
