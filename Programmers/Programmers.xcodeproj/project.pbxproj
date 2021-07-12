@@ -15,6 +15,7 @@
 		D4AE649A26942BEC00A96D97 /* 42587_Printer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE649926942BEC00A96D97 /* 42587_Printer.swift */; };
 		D4AE649D2696E33500A96D97 /* Duplicate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE649C2696E33500A96D97 /* Duplicate.swift */; };
 		D4AE649F2699593500A96D97 /* 42893_PrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE649E2699593500A96D97 /* 42893_PrimeNumber.swift */; };
+		D4AE64A2269BFC2B00A96D97 /* 1260_DFSAndBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64A0269981CB00A96D97 /* 1260_DFSAndBFS.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -43,6 +44,7 @@
 		D4AE649B26959BF400A96D97 /* 11899_InsertionParenthesis.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11899_InsertionParenthesis.swift; sourceTree = "<group>"; };
 		D4AE649C2696E33500A96D97 /* Duplicate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duplicate.swift; sourceTree = "<group>"; };
 		D4AE649E2699593500A96D97 /* 42893_PrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42893_PrimeNumber.swift; sourceTree = "<group>"; };
+		D4AE64A0269981CB00A96D97 /* 1260_DFSAndBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260_DFSAndBFS.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 			children = (
 				D4AE64912692EEAF00A96D97 /* 9237_InvitationVillageHead.swift */,
 				D4AE649B26959BF400A96D97 /* 11899_InsertionParenthesis.swift */,
+				D4AE64A0269981CB00A96D97 /* 1260_DFSAndBFS.swift */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			files = (
 				D4AE64962693FE2400A96D97 /* 42748_KthNumber.swift in Sources */,
 				D4AE649F2699593500A96D97 /* 42893_PrimeNumber.swift in Sources */,
+				D4AE64A2269BFC2B00A96D97 /* 1260_DFSAndBFS.swift in Sources */,
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
 				D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */,
 				D4AE648B2692AF6A00A96D97 /* TwoSum.swift in Sources */,
