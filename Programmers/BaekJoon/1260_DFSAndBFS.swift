@@ -48,10 +48,10 @@ class FS {
         let V = input[2]
         
         var graph = [Int: [Int]]()
-        for i in 0..<M{
+        for _ in 0..<M{
             let connectNumber = readLine()!.components(separatedBy: " ").map{Int($0)!}
-            let start = connectNumber[0]
-            let end = connectNumber[1]
+            let start = connectNumber.first!
+            let end = connectNumber.last!
             
             if graph[start] == nil {
                 graph[start] = [end]
@@ -64,7 +64,9 @@ class FS {
                 graph[end]?.append(start)
             }
         }
-        
+        // 그래프는 순서가 없다.
+        // 문제에 나와있는 출력 구조를 맞추기 위해
+        // DFS는 스택구조이므로 내림차순으로 정렬해준다.
         for key in graph.keys {
             graph[key]?.sort(by: >)
         }
@@ -74,6 +76,7 @@ class FS {
             result += "\(i) "
         }
         print(result)
+        // BFS는 스택구조이므로 내림차순으로 정렬해준다.
         for key in graph.keys {
             graph[key]?.sort(by: <)
         }

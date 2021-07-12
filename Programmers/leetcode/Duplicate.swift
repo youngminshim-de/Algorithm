@@ -17,9 +17,15 @@ class Duplicate {
                 return true
             }
         }
-//        let result = numsCount.filter({ key, value in
-//            value > 1
-//        })
+
         return false
+    }
+    
+    static func containDuplicate2(_ nums: [Int]) -> Bool {
+        let numSet = Set(nums)
+        if numSet.count == nums.count {
+            return false
+        }
+        return true
     }
 }
