@@ -18,5 +18,4 @@ func solution(_ str: String) -> Int {
         prevString = tempString
     }
 }
-//print(PrimeNumber.solution("17"))
-FS.printResult()
+solution()
