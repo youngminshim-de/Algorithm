@@ -7,15 +7,6 @@
 
 import Foundation
 
-func solution(_ str: String) -> Int {
-    var tempString = str
-    var prevString = tempString
-    while true {
-        tempString = tempString.replacingOccurrences(of: "()", with: "")
-        if tempString == prevString {
-            return tempString.count
-        }
-        prevString = tempString
-    }
-}
-solution()
+print(RepeatedElement.repeatedNTimes([1,2,3,3]))
+print(RepeatedElement.repeatedNTimes([2,1,2,5,3,2]))
+print(RepeatedElement.repeatedNTimes([5,1,5,2,5,3,5,4]))

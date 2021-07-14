@@ -17,6 +17,7 @@
 		D4AE649F2699593500A96D97 /* 42893_PrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE649E2699593500A96D97 /* 42893_PrimeNumber.swift */; };
 		D4AE64C0269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64BF269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift */; };
 		D4AE64C1269D7B3D00A96D97 /* 1260_DFSAndBFS.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64A0269981CB00A96D97 /* 1260_DFSAndBFS.swift */; };
+		D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64C2269E73FF00A96D97 /* 961_N-RepeatedElement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -47,6 +48,7 @@
 		D4AE649E2699593500A96D97 /* 42893_PrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42893_PrimeNumber.swift; sourceTree = "<group>"; };
 		D4AE64A0269981CB00A96D97 /* 1260_DFSAndBFS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1260_DFSAndBFS.swift; sourceTree = "<group>"; };
 		D4AE64BF269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2003_SumOfNumber_TwoPointer.swift; sourceTree = "<group>"; };
+		D4AE64C2269E73FF00A96D97 /* 961_N-RepeatedElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "961_N-RepeatedElement.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				D4AE648A2692AF6A00A96D97 /* TwoSum.swift */,
 				D4AE64972694208500A96D97 /* RomanToInteger.swift */,
 				D4AE649C2696E33500A96D97 /* Duplicate.swift */,
+				D4AE64C2269E73FF00A96D97 /* 961_N-RepeatedElement.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 				D4AE64C0269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift in Sources */,
 				D4AE64C1269D7B3D00A96D97 /* 1260_DFSAndBFS.swift in Sources */,
 				D4AE649F2699593500A96D97 /* 42893_PrimeNumber.swift in Sources */,
+				D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */,
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
 				D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */,
 				D4AE648B2692AF6A00A96D97 /* TwoSum.swift in Sources */,
