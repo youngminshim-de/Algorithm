@@ -13,6 +13,15 @@ import Foundation
 print(Disguise.solution([["yellowhat", "headgear"],
                          ["bluesunglasses", "eyewear"],
                          ["green_turban", "headgear"]]))
+
 print(Disguise.solution([["crowmask", "face"],
+                         ["bluesunglasses", "face"],
+                         ["smoky_makeup", "face"]]))
+
+print(Disguise.solution2([["yellowhat", "headgear"],
+                         ["bluesunglasses", "eyewear"],
+                         ["green_turban", "headgear"]]))
+
+print(Disguise.solution2([["crowmask", "face"],
                          ["bluesunglasses", "face"],
                          ["smoky_makeup", "face"]]))

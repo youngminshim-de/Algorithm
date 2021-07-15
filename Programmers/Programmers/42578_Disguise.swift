@@ -27,4 +27,16 @@ class Disguise {
 
         return result - 1
     }
+    
+    static func solution2(_ clothes:[[String]]) -> Int {
+        let types = clothes.compactMap({ $0.last })
+        let typeSet = Set(types)
+        let categories = Array(typeSet)
+        
+        let counts = typeSet.map({ category in
+            return clothes.filter({ $0.last == category}).count + 1
+        })
+        
+        return counts.reduce(1, {$0 * $1}) - 1
+    }
 }
