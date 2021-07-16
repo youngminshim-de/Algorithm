@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */; };
 		D4AE64862692A78900A96D97 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64842692A4D200A96D97 /* main.swift */; };
 		D4AE648B2692AF6A00A96D97 /* TwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE648A2692AF6A00A96D97 /* TwoSum.swift */; };
 		D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE6493269308CD00A96D97 /* 42746_MostBigNumber.swift */; };
@@ -35,6 +36,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 76501_NegatvieAndPositiveSum.swift; sourceTree = "<group>"; };
 		D4AE64782692A26000A96D97 /* Programmers */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Programmers; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4AE64822692A30E00A96D97 /* 12944_CalCulatingAverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12944_CalCulatingAverage.swift; sourceTree = "<group>"; };
 		D4AE64842692A4D200A96D97 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -96,6 +98,7 @@
 				D4AE649E2699593500A96D97 /* 42893_PrimeNumber.swift */,
 				D4AE64C4269E852300A96D97 /* 42578_Disguise.swift */,
 				D4AE64C6269FC32200A96D97 /* 42583_Truck.swift */,
+				D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 				D4AE64962693FE2400A96D97 /* 42748_KthNumber.swift in Sources */,
 				D4AE64C0269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift in Sources */,
 				D4AE64C1269D7B3D00A96D97 /* 1260_DFSAndBFS.swift in Sources */,
+				D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */,
 				D4AE649F2699593500A96D97 /* 42893_PrimeNumber.swift in Sources */,
 				D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */,
 				D4AE64C7269FC32200A96D97 /* 42583_Truck.swift in Sources */,
