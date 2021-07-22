@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */; };
 		D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */; };
 		D4A2CE1526A17B2A00A1B814 /* 77884_Divisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1426A17B2A00A1B814 /* 77884_Divisor.swift */; };
 		D4A2CE1826A522F400A1B814 /* 42747_H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1626A520FB00A1B814 /* 42747_H-Index.swift */; };
@@ -38,6 +39,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 129_SumRootToLeaf.swift; sourceTree = "<group>"; };
 		D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 76501_NegatvieAndPositiveSum.swift; sourceTree = "<group>"; };
 		D4A2CE1426A17B2A00A1B814 /* 77884_Divisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 77884_Divisor.swift; sourceTree = "<group>"; };
 		D4A2CE1626A520FB00A1B814 /* 42747_H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42747_H-Index.swift"; sourceTree = "<group>"; };
@@ -116,6 +118,7 @@
 				D4AE64972694208500A96D97 /* RomanToInteger.swift */,
 				D4AE649C2696E33500A96D97 /* Duplicate.swift */,
 				D4AE64C2269E73FF00A96D97 /* 961_N-RepeatedElement.swift */,
+				D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				D4AE64C0269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift in Sources */,
 				D4A2CE1826A522F400A1B814 /* 42747_H-Index.swift in Sources */,
 				D4AE64C1269D7B3D00A96D97 /* 1260_DFSAndBFS.swift in Sources */,
+				D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */,
 				D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */,
 				D4AE649F2699593500A96D97 /* 42893_PrimeNumber.swift in Sources */,
 				D4A2CE1526A17B2A00A1B814 /* 77884_Divisor.swift in Sources */,
