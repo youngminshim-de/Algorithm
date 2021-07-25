@@ -7,6 +7,7 @@
 
 import Foundation
 
-print(Uniform.solution(5, [2,4], [1,3,5]))
-print(Uniform.solution(5, [2,4], [3]))
-print(Uniform.solution(3, [3], [1]))
+//print(JoyStick.solution("JAAAAZ"))
+//print(JoyStick.solution("JAZ"))
+print(JoyStick.solution("JEROEN"))
+//print(JoyStick.solution("JAN"))
