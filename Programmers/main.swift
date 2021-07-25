@@ -7,6 +7,6 @@
 
 import Foundation
 
-Carpet.solution(10, 2)
-Carpet.solution(8, 1)
-Carpet.solution(24, 24)
+print(Uniform.solution(5, [2,4], [1,3,5]))
+print(Uniform.solution(5, [2,4], [3]))
+print(Uniform.solution(3, [3], [1]))
