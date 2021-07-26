@@ -7,7 +7,7 @@
 
 import Foundation
 
-//print(JoyStick.solution("JAAAAZ"))
-//print(JoyStick.solution("JAZ"))
-print(JoyStick.solution("JEROEN"))
-//print(JoyStick.solution("JAN"))
+print(GroupAnagrams.groupAnagrams2(["eat", "tea", "tan", "ate", "nat", "bat"]))
+//print(GroupAnagrams.groupAnagrams2(["a"]))
+//print(GroupAnagrams.groupAnagrams2([""]))
+//print(GroupAnagrams.groupAnagrams2(["",""]))
