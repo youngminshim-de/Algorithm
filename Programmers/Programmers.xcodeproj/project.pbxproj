@@ -10,6 +10,7 @@
 		D414833A26AD13D80034DF4A /* 42862_Uniform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833926AD13D70034DF4A /* 42862_Uniform.swift */; };
 		D414833C26AD230B0034DF4A /* 42860_JoyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833B26AD230B0034DF4A /* 42860_JoyStick.swift */; };
 		D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833D26AE436F0034DF4A /* GroupAnagrams.swift */; };
+		D414836226AF95D40034DF4A /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414836126AF95D40034DF4A /* Chess.swift */; };
 		D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */; };
 		D48BB52F26AA714600B57A4D /* 42842_Carpet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52E26AA714600B57A4D /* 42842_Carpet.swift */; };
 		D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */; };
@@ -46,6 +47,7 @@
 		D414833926AD13D70034DF4A /* 42862_Uniform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42862_Uniform.swift; sourceTree = "<group>"; };
 		D414833B26AD230B0034DF4A /* 42860_JoyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42860_JoyStick.swift; sourceTree = "<group>"; };
 		D414833D26AE436F0034DF4A /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
+		D414836126AF95D40034DF4A /* Chess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
 		D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 129_SumRootToLeaf.swift; sourceTree = "<group>"; };
 		D48BB52E26AA714600B57A4D /* 42842_Carpet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42842_Carpet.swift; sourceTree = "<group>"; };
 		D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 76501_NegatvieAndPositiveSum.swift; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 				D4AE64C2269E73FF00A96D97 /* 961_N-RepeatedElement.swift */,
 				D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */,
 				D414833D26AE436F0034DF4A /* GroupAnagrams.swift */,
+				D414836126AF95D40034DF4A /* Chess.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -213,6 +216,7 @@
 				D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */,
 				D4AE649F2699593500A96D97 /* 42893_PrimeNumber.swift in Sources */,
 				D4A2CE1526A17B2A00A1B814 /* 77884_Divisor.swift in Sources */,
+				D414836226AF95D40034DF4A /* Chess.swift in Sources */,
 				D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */,
 				D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */,
 				D4AE64C7269FC32200A96D97 /* 42583_Truck.swift in Sources */,
