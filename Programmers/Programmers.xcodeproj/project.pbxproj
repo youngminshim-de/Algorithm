@@ -12,6 +12,7 @@
 		D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833D26AE436F0034DF4A /* GroupAnagrams.swift */; };
 		D414836226AF95D40034DF4A /* Chess.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414836126AF95D40034DF4A /* Chess.swift */; };
 		D414836826B0DE1F0034DF4A /* MergeTwoSortedLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414836726B0DE1F0034DF4A /* MergeTwoSortedLists.swift */; };
+		D414836A26B1022E0034DF4A /* PalindromeLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414836926B1022E0034DF4A /* PalindromeLinkedList.swift */; };
 		D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */; };
 		D48BB52F26AA714600B57A4D /* 42842_Carpet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52E26AA714600B57A4D /* 42842_Carpet.swift */; };
 		D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */; };
@@ -50,6 +51,7 @@
 		D414833D26AE436F0034DF4A /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
 		D414836126AF95D40034DF4A /* Chess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chess.swift; sourceTree = "<group>"; };
 		D414836726B0DE1F0034DF4A /* MergeTwoSortedLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MergeTwoSortedLists.swift; sourceTree = "<group>"; };
+		D414836926B1022E0034DF4A /* PalindromeLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PalindromeLinkedList.swift; sourceTree = "<group>"; };
 		D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 129_SumRootToLeaf.swift; sourceTree = "<group>"; };
 		D48BB52E26AA714600B57A4D /* 42842_Carpet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42842_Carpet.swift; sourceTree = "<group>"; };
 		D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 76501_NegatvieAndPositiveSum.swift; sourceTree = "<group>"; };
@@ -137,6 +139,7 @@
 				D414833D26AE436F0034DF4A /* GroupAnagrams.swift */,
 				D414836126AF95D40034DF4A /* Chess.swift */,
 				D414836726B0DE1F0034DF4A /* MergeTwoSortedLists.swift */,
+				D414836926B1022E0034DF4A /* PalindromeLinkedList.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
 				D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */,
 				D4AE648B2692AF6A00A96D97 /* TwoSum.swift in Sources */,
+				D414836A26B1022E0034DF4A /* PalindromeLinkedList.swift in Sources */,
 				D4AE649D2696E33500A96D97 /* Duplicate.swift in Sources */,
 				D4AE64C5269E852300A96D97 /* 42578_Disguise.swift in Sources */,
 				D4AE64982694208500A96D97 /* RomanToInteger.swift in Sources */,

@@ -7,7 +7,5 @@
 
 import Foundation
 
-let l1 = ListNode(1, ListNode(2, ListNode(4)))
-let l2 = ListNode(1, ListNode(3, ListNode(4)))
-
-print(MergeTwoSortedLists.mergeTwoLists(l1, l2))
+print(Palindrome.isPalindrome(ListNode(1, ListNode(2, ListNode(2, ListNode(1))))))
+print(Palindrome.isPalindrome(ListNode(1, ListNode(2))))
