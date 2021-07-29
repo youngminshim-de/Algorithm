@@ -7,5 +7,4 @@
 
 import Foundation
 
-print(Palindrome.isPalindrome(ListNode(1, ListNode(2, ListNode(2, ListNode(1))))))
-print(Palindrome.isPalindrome(ListNode(1, ListNode(2))))
+print(Cards.deckRevealedIncreasing([17,13,11,2,3,5,7]))
