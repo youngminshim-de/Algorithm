@@ -7,4 +7,5 @@
 
 import Foundation
 
-print(Cards.deckRevealedIncreasing([17,13,11,2,3,5,7]))
+print(TwoNumbers.addTwoNumbers(ListNode(2, ListNode(4, ListNode(3))),
+                               ListNode(5, ListNode(6, ListNode(4)))))
