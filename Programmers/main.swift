@@ -6,7 +6,7 @@
 //
 
 import Foundation
-//
-//print(LongestSubString.lengthOfLongestSubstring("abcabcbb"))
-//print(LongestSubString.lengthOfLongestSubstring("bbbb"))
-print(LongestSubString.lengthOfLongestSubstring("pwwkew"))
+
+print(BigNumber.solution("1924", 2))
+print(BigNumber.solution("1231234", 3))
+print(BigNumber.solution("4177252841", 4))
