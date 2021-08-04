@@ -7,6 +7,10 @@
 
 import Foundation
 
-print(BigNumber.solution("1924", 2))
-print(BigNumber.solution("1231234", 3))
-print(BigNumber.solution("4177252841", 4))
+//print(BigNumber.solution("1924", 2))
+//print(BigNumber.solution("1231234", 3))
+//print(BigNumber.solution("4177252841", 4))
+
+print(KeysAndRooms.canVisitAllRooms([[1],[2],[3],[]]))
+print(KeysAndRooms.canVisitAllRooms([[1,3],[3,0,1],[2],[0]]))
+print(KeysAndRooms.canVisitAllRooms([[1,2],[2,1],[1]]))
