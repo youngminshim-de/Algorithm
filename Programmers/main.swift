@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(Letter.letterCombinations("23"))
+print(PathSum2.pathSum(TreeNode(1, TreeNode(2), TreeNode(3)), 5))

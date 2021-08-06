@@ -10,6 +10,18 @@ import Foundation
 class BinaryTree {
     func inorderTraversal(_ root: TreeNode?) -> [Int] {
         
-        return []
+        var result: [Int] = []
+        
+        func dfs(_ root: TreeNode?, _ result: inout [Int]) {
+            guard let root = root else {
+                return
+            }
+            
+            dfs(root.left, &result)
+            result.append(root.val)
+            dfs(root.right, &result)
+        }
+        dfs(root, &result)
+        return result
     }
 }
