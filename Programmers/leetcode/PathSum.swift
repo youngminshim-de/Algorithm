@@ -50,4 +50,31 @@ class PathSum2 {
         
         return result
     }
+    
+    static func pathSum2(_ root: TreeNode?, _ targetSum: Int) -> [[Int]] {
+        var result = [[Int]]()
+        var path = [Int]()
+        
+        func dfs(_ root: TreeNode?, _ targetSum: Int, _ path: inout [Int], _ result: inout [[Int]]) {
+            
+            guard let root = root else {
+                return
+            }
+            
+            path.append(root.val)
+            
+            if root.val == targetSum && root.left == nil && root.right == nil {
+                result.append(path)
+                path.removeLast()
+                return
+            } else {
+                dfs(root.left, targetSum - root.val, &path, &result)
+                dfs(root.right, targetSum - root.val, &path, &result)
+            }
+            path.removeLast()
+        }
+        
+        dfs(root, targetSum, &path, &result)
+        return result
+    }
 }
