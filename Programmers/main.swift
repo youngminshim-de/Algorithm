@@ -7,4 +7,5 @@
 
 import Foundation
 
-print(PathSum2.pathSum(TreeNode(1, TreeNode(2), TreeNode(3)), 5))
+print(MinimizeMaximum.minPairSum([3,5,2,3]))
+print(MinimizeMaximum.minPairSum([3,5,4,2,4,6]))
