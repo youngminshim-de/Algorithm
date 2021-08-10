@@ -42,6 +42,7 @@
 		D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64C2269E73FF00A96D97 /* 961_N-RepeatedElement.swift */; };
 		D4AE64C5269E852300A96D97 /* 42578_Disguise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64C4269E852300A96D97 /* 42578_Disguise.swift */; };
 		D4AE64C7269FC32200A96D97 /* 42583_Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64C6269FC32200A96D97 /* 42583_Truck.swift */; };
+		D4B67D3626C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D3526C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -97,6 +98,7 @@
 		D4AE64C2269E73FF00A96D97 /* 961_N-RepeatedElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "961_N-RepeatedElement.swift"; sourceTree = "<group>"; };
 		D4AE64C4269E852300A96D97 /* 42578_Disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42578_Disguise.swift; sourceTree = "<group>"; };
 		D4AE64C6269FC32200A96D97 /* 42583_Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42583_Truck.swift; sourceTree = "<group>"; };
+		D4B67D3526C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12977_MakePrimeNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				D4AE6493269308CD00A96D97 /* 42746_MostBigNumber.swift */,
 				D4AE649926942BEC00A96D97 /* 42587_Printer.swift */,
 				D4AE649E2699593500A96D97 /* 42893_PrimeNumber.swift */,
+				D4B67D3526C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift */,
 				D4AE64C4269E852300A96D97 /* 42578_Disguise.swift */,
 				D4AE64C6269FC32200A96D97 /* 42583_Truck.swift */,
 				D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */,
@@ -280,6 +283,7 @@
 				D4AE649A26942BEC00A96D97 /* 42587_Printer.swift in Sources */,
 				D41484A326BE2CF30034DF4A /* 104_MaximumDepth.swift in Sources */,
 				D41484A126BD48900034DF4A /* PathSum.swift in Sources */,
+				D4B67D3626C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(MinimizeMaximum.minPairSum([3,5,2,3]))
-print(MinimizeMaximum.minPairSum([3,5,4,2,4,6]))
+print(MakePrimeNumber.solution([1,2,3,4]))
+print(MakePrimeNumber.solution([1,2,7,6,4]))
