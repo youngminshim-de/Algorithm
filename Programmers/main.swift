@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(TopKFrequent.topKFrequent([1,1,1,2,2,3], 2))
+print(ValidateStackSequences.validateStackSequences([1,2,3,4,5], [4,5,3,2,1]))
