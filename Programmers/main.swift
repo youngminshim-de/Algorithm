@@ -7,5 +7,4 @@
 
 import Foundation
 
-print(MakePrimeNumber.solution([1,2,3,4]))
-print(MakePrimeNumber.solution([1,2,7,6,4]))
+print(TopKFrequent.topKFrequent([1,1,1,2,2,3], 2))

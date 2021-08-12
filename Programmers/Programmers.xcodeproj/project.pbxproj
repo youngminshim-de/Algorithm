@@ -43,6 +43,7 @@
 		D4AE64C5269E852300A96D97 /* 42578_Disguise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64C4269E852300A96D97 /* 42578_Disguise.swift */; };
 		D4AE64C7269FC32200A96D97 /* 42583_Truck.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AE64C6269FC32200A96D97 /* 42583_Truck.swift */; };
 		D4B67D3626C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D3526C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift */; };
+		D4B67D3B26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D3A26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -99,6 +100,7 @@
 		D4AE64C4269E852300A96D97 /* 42578_Disguise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42578_Disguise.swift; sourceTree = "<group>"; };
 		D4AE64C6269FC32200A96D97 /* 42583_Truck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42583_Truck.swift; sourceTree = "<group>"; };
 		D4B67D3526C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12977_MakePrimeNumber.swift; sourceTree = "<group>"; };
+		D4B67D3A26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 347_TopKFrequentElements.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -176,6 +178,7 @@
 				D41484A026BD488F0034DF4A /* PathSum.swift */,
 				D41484A226BE2CF30034DF4A /* 104_MaximumDepth.swift */,
 				D41484A426C0DE900034DF4A /* MinimizeMaximumPair.swift */,
+				D4B67D3A26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -254,6 +257,7 @@
 				D4AE64C0269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift in Sources */,
 				D4A2CE1826A522F400A1B814 /* 42747_H-Index.swift in Sources */,
 				D48BB52F26AA714600B57A4D /* 42842_Carpet.swift in Sources */,
+				D4B67D3B26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift in Sources */,
 				D4AE64C1269D7B3D00A96D97 /* 1260_DFSAndBFS.swift in Sources */,
 				D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */,
 				D414849D26BD19C50034DF4A /* 17_LetterCombinations.swift in Sources */,
