@@ -45,6 +45,7 @@
 		D4B67D3626C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D3526C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift */; };
 		D4B67D3B26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D3A26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift */; };
 		D4B67D3D26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D3C26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift */; };
+		D4B67D6526C64FA6000E8BB7 /* 20_ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D6426C64FA6000E8BB7 /* 20_ValidParentheses.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -103,6 +104,7 @@
 		D4B67D3526C20BD7000E8BB7 /* 12977_MakePrimeNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 12977_MakePrimeNumber.swift; sourceTree = "<group>"; };
 		D4B67D3A26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 347_TopKFrequentElements.swift; sourceTree = "<group>"; };
 		D4B67D3C26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 946_ValidateStackSequences.swift; sourceTree = "<group>"; };
+		D4B67D6426C64FA6000E8BB7 /* 20_ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_ValidParentheses.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,6 +184,7 @@
 				D41484A426C0DE900034DF4A /* MinimizeMaximumPair.swift */,
 				D4B67D3A26C4CE93000E8BB7 /* 347_TopKFrequentElements.swift */,
 				D4B67D3C26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift */,
+				D4B67D6426C64FA6000E8BB7 /* 20_ValidParentheses.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				D414846826B52D870034DF4A /* LongestSubstring.swift in Sources */,
 				D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */,
 				D414842E26B37EBB0034DF4A /* 2.AddTwoNumbers.swift in Sources */,
+				D4B67D6526C64FA6000E8BB7 /* 20_ValidParentheses.swift in Sources */,
 				D4AE64C7269FC32200A96D97 /* 42583_Truck.swift in Sources */,
 				D414833A26AD13D80034DF4A /* 42862_Uniform.swift in Sources */,
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
