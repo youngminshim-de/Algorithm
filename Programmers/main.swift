@@ -7,8 +7,6 @@
 
 import Foundation
 
-//print(ValidParentheses.isValid("()"))
-//print(ValidParentheses.isValid("()[]{}"))
-//print(ValidParentheses.isValid("(]"))
-//print(ValidParentheses.isValid("([)]"))
-print(ValidParentheses.isValid2("({[]})"))
+//print(ContainerWithMostWater.maxArea([1, 1]))
+//print(ContainerWithMostWater.maxArea([4, 3, 2, 1, 4]))
+print(ContainerWithMostWater.maxArea([1, 2, 1]))
