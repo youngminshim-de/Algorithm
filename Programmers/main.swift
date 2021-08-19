@@ -7,5 +7,4 @@
 
 import Foundation
 
-print(CourseSchedule.canFinish2(2, [[1, 0]]))
-print(CourseSchedule.canFinish2(2, [[1, 0], [0, 1]]))
+NAndM.solution()

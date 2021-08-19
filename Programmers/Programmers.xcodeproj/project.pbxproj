@@ -48,6 +48,7 @@
 		D4B67D6526C64FA6000E8BB7 /* 20_ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D6426C64FA6000E8BB7 /* 20_ValidParentheses.swift */; };
 		D4B67D9726C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D9626C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift */; };
 		D4BCFB2F26CCA39400323CF5 /* 207_CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */; };
+		D4BCFB5126CE529E00323CF5 /* 15649_NAndM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -109,6 +110,7 @@
 		D4B67D6426C64FA6000E8BB7 /* 20_ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_ValidParentheses.swift; sourceTree = "<group>"; };
 		D4B67D9626C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 207_CourseSchedule.swift; sourceTree = "<group>"; };
+		D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649_NAndM.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -202,6 +204,7 @@
 				D4AE649B26959BF400A96D97 /* 11899_InsertionParenthesis.swift */,
 				D4AE64A0269981CB00A96D97 /* 1260_DFSAndBFS.swift */,
 				D4AE64BF269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift */,
+				D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */,
 			);
 			path = BaekJoon;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				D4B67D3D26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift in Sources */,
 				D414836A26B1022E0034DF4A /* PalindromeLinkedList.swift in Sources */,
 				D414846C26BA330C0034DF4A /* KeysAndRooms.swift in Sources */,
+				D4BCFB5126CE529E00323CF5 /* 15649_NAndM.swift in Sources */,
 				D4AE649D2696E33500A96D97 /* Duplicate.swift in Sources */,
 				D4AE64C5269E852300A96D97 /* 42578_Disguise.swift in Sources */,
 				D4AE64982694208500A96D97 /* RomanToInteger.swift in Sources */,
