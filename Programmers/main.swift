@@ -7,4 +7,4 @@
 
 import Foundation
 
-NAndM.solution()
+print(Permutation.permute([1,2,3]))

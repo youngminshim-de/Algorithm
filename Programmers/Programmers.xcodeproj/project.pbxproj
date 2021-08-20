@@ -49,6 +49,7 @@
 		D4B67D9726C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D9626C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift */; };
 		D4BCFB2F26CCA39400323CF5 /* 207_CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */; };
 		D4BCFB5126CE529E00323CF5 /* 15649_NAndM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */; };
+		D4BCFB5326CF511F00323CF5 /* 46_Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -111,6 +112,7 @@
 		D4B67D9626C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_ContainerWithMostWater.swift; sourceTree = "<group>"; };
 		D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 207_CourseSchedule.swift; sourceTree = "<group>"; };
 		D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649_NAndM.swift; sourceTree = "<group>"; };
+		D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 46_Permutations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,6 +195,7 @@
 				D4B67D6426C64FA6000E8BB7 /* 20_ValidParentheses.swift */,
 				D4B67D9626C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift */,
 				D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */,
+				D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				D4AE64C7269FC32200A96D97 /* 42583_Truck.swift in Sources */,
 				D414833A26AD13D80034DF4A /* 42862_Uniform.swift in Sources */,
 				D4BCFB2F26CCA39400323CF5 /* 207_CourseSchedule.swift in Sources */,
+				D4BCFB5326CF511F00323CF5 /* 46_Permutations.swift in Sources */,
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
 				D41484A526C0DE900034DF4A /* MinimizeMaximumPair.swift in Sources */,
 				D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */,
