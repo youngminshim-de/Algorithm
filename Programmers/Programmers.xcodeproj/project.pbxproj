@@ -50,6 +50,7 @@
 		D4BCFB2F26CCA39400323CF5 /* 207_CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */; };
 		D4BCFB5126CE529E00323CF5 /* 15649_NAndM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */; };
 		D4BCFB5326CF511F00323CF5 /* 46_Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */; };
+		D4BCFB7726D3484900323CF5 /* 1051_HeightChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB7626D3484900323CF5 /* 1051_HeightChecker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -113,6 +114,7 @@
 		D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 207_CourseSchedule.swift; sourceTree = "<group>"; };
 		D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649_NAndM.swift; sourceTree = "<group>"; };
 		D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 46_Permutations.swift; sourceTree = "<group>"; };
+		D4BCFB7626D3484900323CF5 /* 1051_HeightChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1051_HeightChecker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -196,6 +198,7 @@
 				D4B67D9626C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift */,
 				D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */,
 				D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */,
+				D4BCFB7626D3484900323CF5 /* 1051_HeightChecker.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -288,6 +291,7 @@
 				D414836226AF95D40034DF4A /* Chess.swift in Sources */,
 				D414849F26BD2C0A0034DF4A /* 94_BinaryTree.swift in Sources */,
 				D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */,
+				D4BCFB7726D3484900323CF5 /* 1051_HeightChecker.swift in Sources */,
 				D414846826B52D870034DF4A /* LongestSubstring.swift in Sources */,
 				D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */,
 				D414842E26B37EBB0034DF4A /* 2.AddTwoNumbers.swift in Sources */,
