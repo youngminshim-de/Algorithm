@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(Permutation.permute([1,2,3]))
+print(TargetNumber.solution([1,1,1,1,1], 3))

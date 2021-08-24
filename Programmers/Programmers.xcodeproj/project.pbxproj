@@ -51,6 +51,7 @@
 		D4BCFB5126CE529E00323CF5 /* 15649_NAndM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */; };
 		D4BCFB5326CF511F00323CF5 /* 46_Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */; };
 		D4BCFB7726D3484900323CF5 /* 1051_HeightChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB7626D3484900323CF5 /* 1051_HeightChecker.swift */; };
+		D4BCFB7D26D4937700323CF5 /* 43165_TargetNumber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB7C26D4937700323CF5 /* 43165_TargetNumber.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -115,6 +116,7 @@
 		D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649_NAndM.swift; sourceTree = "<group>"; };
 		D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 46_Permutations.swift; sourceTree = "<group>"; };
 		D4BCFB7626D3484900323CF5 /* 1051_HeightChecker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1051_HeightChecker.swift; sourceTree = "<group>"; };
+		D4BCFB7C26D4937700323CF5 /* 43165_TargetNumber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 43165_TargetNumber.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,6 +168,7 @@
 				D414833926AD13D70034DF4A /* 42862_Uniform.swift */,
 				D414833B26AD230B0034DF4A /* 42860_JoyStick.swift */,
 				D414846926B79A2D0034DF4A /* 42883_MakeBigNumber.swift */,
+				D4BCFB7C26D4937700323CF5 /* 43165_TargetNumber.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */,
 				D414842E26B37EBB0034DF4A /* 2.AddTwoNumbers.swift in Sources */,
 				D4B67D6526C64FA6000E8BB7 /* 20_ValidParentheses.swift in Sources */,
+				D4BCFB7D26D4937700323CF5 /* 43165_TargetNumber.swift in Sources */,
 				D4AE64C7269FC32200A96D97 /* 42583_Truck.swift in Sources */,
 				D414833A26AD13D80034DF4A /* 42862_Uniform.swift in Sources */,
 				D4BCFB2F26CCA39400323CF5 /* 207_CourseSchedule.swift in Sources */,
