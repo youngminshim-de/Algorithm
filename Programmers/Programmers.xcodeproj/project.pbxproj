@@ -47,6 +47,7 @@
 		D4B67D3D26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D3C26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift */; };
 		D4B67D6526C64FA6000E8BB7 /* 20_ValidParentheses.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D6426C64FA6000E8BB7 /* 20_ValidParentheses.swift */; };
 		D4B67D9726C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B67D9626C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift */; };
+		D4B9329126D75AD900084ECA /* 1823_FindTheWinnerOfTheCircularGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B9329026D75AD900084ECA /* 1823_FindTheWinnerOfTheCircularGame.swift */; };
 		D4BCFB2F26CCA39400323CF5 /* 207_CourseSchedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */; };
 		D4BCFB5126CE529E00323CF5 /* 15649_NAndM.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */; };
 		D4BCFB5326CF511F00323CF5 /* 46_Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */; };
@@ -114,6 +115,7 @@
 		D4B67D3C26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 946_ValidateStackSequences.swift; sourceTree = "<group>"; };
 		D4B67D6426C64FA6000E8BB7 /* 20_ValidParentheses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 20_ValidParentheses.swift; sourceTree = "<group>"; };
 		D4B67D9626C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11_ContainerWithMostWater.swift; sourceTree = "<group>"; };
+		D4B9329026D75AD900084ECA /* 1823_FindTheWinnerOfTheCircularGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1823_FindTheWinnerOfTheCircularGame.swift; sourceTree = "<group>"; };
 		D4BCFB2E26CCA39400323CF5 /* 207_CourseSchedule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 207_CourseSchedule.swift; sourceTree = "<group>"; };
 		D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15649_NAndM.swift; sourceTree = "<group>"; };
 		D4BCFB5226CF511F00323CF5 /* 46_Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 46_Permutations.swift; sourceTree = "<group>"; };
@@ -208,6 +210,7 @@
 				D4BCFB7626D3484900323CF5 /* 1051_HeightChecker.swift */,
 				D4BCFB7E26D49CD700323CF5 /* 26_RemoveDuplicatesFromSortedArray.swift */,
 				D4BCFB8B26D5E76600323CF5 /* 781_Rabbits.swift */,
+				D4B9329026D75AD900084ECA /* 1823_FindTheWinnerOfTheCircularGame.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -292,6 +295,7 @@
 				D4AE64C1269D7B3D00A96D97 /* 1260_DFSAndBFS.swift in Sources */,
 				D4B67D9726C9FB43000E8BB7 /* 11_ContainerWithMostWater.swift in Sources */,
 				D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */,
+				D4B9329126D75AD900084ECA /* 1823_FindTheWinnerOfTheCircularGame.swift in Sources */,
 				D414849D26BD19C50034DF4A /* 17_LetterCombinations.swift in Sources */,
 				D414846E26BAF16A0034DF4A /* 373_FindKPairs.swift in Sources */,
 				D4BCFB7F26D49CD700323CF5 /* 26_RemoveDuplicatesFromSortedArray.swift in Sources */,

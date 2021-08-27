@@ -7,6 +7,5 @@
 
 import Foundation
 
-print(Rabbits.solution([1,1,2]))
-print(Rabbits.solution([10,10,10]))
-print(Rabbits.solution([1,0,1,0,0]))
+print(WinnerOfTheCircularGame.findTheWinner(5, 2))
+    print(WinnerOfTheCircularGame.findTheWinner(6, 5))
