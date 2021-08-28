@@ -24,6 +24,7 @@
 		D41484A126BD48900034DF4A /* PathSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41484A026BD488F0034DF4A /* PathSum.swift */; };
 		D41484A326BE2CF30034DF4A /* 104_MaximumDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41484A226BE2CF30034DF4A /* 104_MaximumDepth.swift */; };
 		D41484A526C0DE900034DF4A /* MinimizeMaximumPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41484A426C0DE900034DF4A /* MinimizeMaximumPair.swift */; };
+		D438456126D9D29A00FEC869 /* ValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438456026D9D29A00FEC869 /* ValidSudoku.swift */; };
 		D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */; };
 		D48BB52F26AA714600B57A4D /* 42842_Carpet.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52E26AA714600B57A4D /* 42842_Carpet.swift */; };
 		D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */; };
@@ -87,6 +88,7 @@
 		D41484A026BD488F0034DF4A /* PathSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathSum.swift; sourceTree = "<group>"; };
 		D41484A226BE2CF30034DF4A /* 104_MaximumDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 104_MaximumDepth.swift; sourceTree = "<group>"; };
 		D41484A426C0DE900034DF4A /* MinimizeMaximumPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizeMaximumPair.swift; sourceTree = "<group>"; };
+		D438456026D9D29A00FEC869 /* ValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSudoku.swift; sourceTree = "<group>"; };
 		D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 129_SumRootToLeaf.swift; sourceTree = "<group>"; };
 		D48BB52E26AA714600B57A4D /* 42842_Carpet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42842_Carpet.swift; sourceTree = "<group>"; };
 		D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 76501_NegatvieAndPositiveSum.swift; sourceTree = "<group>"; };
@@ -211,6 +213,7 @@
 				D4BCFB7E26D49CD700323CF5 /* 26_RemoveDuplicatesFromSortedArray.swift */,
 				D4BCFB8B26D5E76600323CF5 /* 781_Rabbits.swift */,
 				D4B9329026D75AD900084ECA /* 1823_FindTheWinnerOfTheCircularGame.swift */,
+				D438456026D9D29A00FEC869 /* ValidSudoku.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -319,6 +322,7 @@
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
 				D41484A526C0DE900034DF4A /* MinimizeMaximumPair.swift in Sources */,
 				D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */,
+				D438456126D9D29A00FEC869 /* ValidSudoku.swift in Sources */,
 				D414846A26B79A2D0034DF4A /* 42883_MakeBigNumber.swift in Sources */,
 				D4AE648B2692AF6A00A96D97 /* TwoSum.swift in Sources */,
 				D4B67D3D26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift in Sources */,
