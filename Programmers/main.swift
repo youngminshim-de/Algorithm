@@ -6,6 +6,6 @@
 //
 
 import Foundation
-
-print(WinnerOfTheCircularGame.findTheWinner(5, 2))
-    print(WinnerOfTheCircularGame.findTheWinner(6, 5))
+var array = [0,1,0,3,12]
+MoveZeroes.moveZeroes(&array)
+print(array)
