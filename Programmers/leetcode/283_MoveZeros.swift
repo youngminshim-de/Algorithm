@@ -15,8 +15,9 @@ class MoveZeroes {
         
         while current <= next {
             if nums[current] == 0 {
-                nums.remove(at: current)
-                nums.append(0)
+//                nums.remove(at: current)
+//                nums.append(0)
+                nums.swapAt(current, 0)
             } else {
                 current += 1
             }

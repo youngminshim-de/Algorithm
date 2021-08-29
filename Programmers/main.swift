@@ -6,6 +6,10 @@
 //
 
 import Foundation
-var array = [0,1,0,3,12]
-MoveZeroes.moveZeroes(&array)
-print(array)
+
+print(SearchInsertPosition.searchInsert([1,3,5,6], 5))
+print(SearchInsertPosition.searchInsert([1,3,5,6], 2))
+print(SearchInsertPosition.searchInsert([1,3,5,6], 7))
+print(SearchInsertPosition.searchInsert([1,3,5,6], 0))
+print(SearchInsertPosition.searchInsert([1], 0))
+print(SearchInsertPosition.searchInsert([1,3], 2))
