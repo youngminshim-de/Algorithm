@@ -31,6 +31,8 @@
 		D48FDAF126DB3A05003BCB0F /* 704_BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDAF026DB3A05003BCB0F /* 704_BinarySearch.swift */; };
 		D48FDAF326DB511A003BCB0F /* 278_FirstBadVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDAF226DB511A003BCB0F /* 278_FirstBadVersion.swift */; };
 		D48FDAF626DB545C003BCB0F /* 35_SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDAF526DB545C003BCB0F /* 35_SearchInsertPosition.swift */; };
+		D48FDAF926DC6F3B003BCB0F /* SquaresOfaSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDAF826DC6F3B003BCB0F /* SquaresOfaSortedArray.swift */; };
+		D48FDAFB26DC71A3003BCB0F /* RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDAFA26DC71A2003BCB0F /* RotateArray.swift */; };
 		D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */; };
 		D4A2CE1526A17B2A00A1B814 /* 77884_Divisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1426A17B2A00A1B814 /* 77884_Divisor.swift */; };
 		D4A2CE1826A522F400A1B814 /* 42747_H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1626A520FB00A1B814 /* 42747_H-Index.swift */; };
@@ -99,6 +101,8 @@
 		D48FDAF026DB3A05003BCB0F /* 704_BinarySearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 704_BinarySearch.swift; sourceTree = "<group>"; };
 		D48FDAF226DB511A003BCB0F /* 278_FirstBadVersion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 278_FirstBadVersion.swift; sourceTree = "<group>"; };
 		D48FDAF526DB545C003BCB0F /* 35_SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35_SearchInsertPosition.swift; sourceTree = "<group>"; };
+		D48FDAF826DC6F3B003BCB0F /* SquaresOfaSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquaresOfaSortedArray.swift; sourceTree = "<group>"; };
+		D48FDAFA26DC71A2003BCB0F /* RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotateArray.swift; sourceTree = "<group>"; };
 		D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 76501_NegatvieAndPositiveSum.swift; sourceTree = "<group>"; };
 		D4A2CE1426A17B2A00A1B814 /* 77884_Divisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 77884_Divisor.swift; sourceTree = "<group>"; };
 		D4A2CE1626A520FB00A1B814 /* 42747_H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42747_H-Index.swift"; sourceTree = "<group>"; };
@@ -156,6 +160,15 @@
 			path = BinarySearch;
 			sourceTree = "<group>";
 		};
+		D48FDAF726DC6F1D003BCB0F /* SquareOfaSortedArray */ = {
+			isa = PBXGroup;
+			children = (
+				D48FDAF826DC6F3B003BCB0F /* SquaresOfaSortedArray.swift */,
+				D48FDAFA26DC71A2003BCB0F /* RotateArray.swift */,
+			);
+			path = SquareOfaSortedArray;
+			sourceTree = "<group>";
+		};
 		D4AE646F2692A26000A96D97 = {
 			isa = PBXGroup;
 			children = (
@@ -202,6 +215,7 @@
 		D4AE64872692A79A00A96D97 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				D48FDAF726DC6F1D003BCB0F /* SquareOfaSortedArray */,
 				D48FDAF426DB5445003BCB0F /* BinarySearch */,
 				D4AE648A2692AF6A00A96D97 /* TwoSum.swift */,
 				D4AE64972694208500A96D97 /* RomanToInteger.swift */,
@@ -307,9 +321,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D48FDAF926DC6F3B003BCB0F /* SquaresOfaSortedArray.swift in Sources */,
 				D414836826B0DE1F0034DF4A /* MergeTwoSortedLists.swift in Sources */,
 				D4BCFB8C26D5E76600323CF5 /* 781_Rabbits.swift in Sources */,
 				D4AE64962693FE2400A96D97 /* 42748_KthNumber.swift in Sources */,
+				D48FDAFB26DC71A3003BCB0F /* RotateArray.swift in Sources */,
 				D414836C26B241C80034DF4A /* RevealCards.swift in Sources */,
 				D4AE64C0269D736100A96D97 /* 2003_SumOfNumber_TwoPointer.swift in Sources */,
 				D4A2CE1826A522F400A1B814 /* 42747_H-Index.swift in Sources */,
