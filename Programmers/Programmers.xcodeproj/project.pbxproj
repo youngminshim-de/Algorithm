@@ -33,6 +33,7 @@
 		D48FDAF626DB545C003BCB0F /* 35_SearchInsertPosition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDAF526DB545C003BCB0F /* 35_SearchInsertPosition.swift */; };
 		D48FDAF926DC6F3B003BCB0F /* 977_SquaresOfaSortedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDAF826DC6F3B003BCB0F /* 977_SquaresOfaSortedArray.swift */; };
 		D48FDAFB26DC71A3003BCB0F /* 189_RotateArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDAFA26DC71A2003BCB0F /* 189_RotateArray.swift */; };
+		D48FDB0126DDC96B003BCB0F /* 167_TwoSumPart2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48FDB0026DDC96B003BCB0F /* 167_TwoSumPart2.swift */; };
 		D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */; };
 		D4A2CE1526A17B2A00A1B814 /* 77884_Divisor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1426A17B2A00A1B814 /* 77884_Divisor.swift */; };
 		D4A2CE1826A522F400A1B814 /* 42747_H-Index.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4A2CE1626A520FB00A1B814 /* 42747_H-Index.swift */; };
@@ -103,6 +104,7 @@
 		D48FDAF526DB545C003BCB0F /* 35_SearchInsertPosition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 35_SearchInsertPosition.swift; sourceTree = "<group>"; };
 		D48FDAF826DC6F3B003BCB0F /* 977_SquaresOfaSortedArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 977_SquaresOfaSortedArray.swift; sourceTree = "<group>"; };
 		D48FDAFA26DC71A2003BCB0F /* 189_RotateArray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 189_RotateArray.swift; sourceTree = "<group>"; };
+		D48FDB0026DDC96B003BCB0F /* 167_TwoSumPart2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 167_TwoSumPart2.swift; sourceTree = "<group>"; };
 		D4A2CE1226A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 76501_NegatvieAndPositiveSum.swift; sourceTree = "<group>"; };
 		D4A2CE1426A17B2A00A1B814 /* 77884_Divisor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 77884_Divisor.swift; sourceTree = "<group>"; };
 		D4A2CE1626A520FB00A1B814 /* 42747_H-Index.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "42747_H-Index.swift"; sourceTree = "<group>"; };
@@ -215,13 +217,13 @@
 		D4AE64872692A79A00A96D97 /* leetcode */ = {
 			isa = PBXGroup;
 			children = (
+				D4AF9E3126DDCDB100E69A28 /* MoveZeroes (TwoPointers) */,
 				D48FDAF726DC6F1D003BCB0F /* SquareOfaSortedArray */,
 				D48FDAF426DB5445003BCB0F /* BinarySearch */,
 				D4AE648A2692AF6A00A96D97 /* TwoSum.swift */,
 				D4AE64972694208500A96D97 /* RomanToInteger.swift */,
 				D4AE649C2696E33500A96D97 /* Duplicate.swift */,
 				D4AE64C2269E73FF00A96D97 /* 961_N-RepeatedElement.swift */,
-				D438456226D9F98100FEC869 /* 283_MoveZeros.swift */,
 				D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */,
 				D414833D26AE436F0034DF4A /* GroupAnagrams.swift */,
 				D414836126AF95D40034DF4A /* Chess.swift */,
@@ -262,6 +264,15 @@
 				D4BCFB5026CE529E00323CF5 /* 15649_NAndM.swift */,
 			);
 			path = BaekJoon;
+			sourceTree = "<group>";
+		};
+		D4AF9E3126DDCDB100E69A28 /* MoveZeroes (TwoPointers) */ = {
+			isa = PBXGroup;
+			children = (
+				D438456226D9F98100FEC869 /* 283_MoveZeros.swift */,
+				D48FDB0026DDC96B003BCB0F /* 167_TwoSumPart2.swift */,
+			);
+			path = "MoveZeroes (TwoPointers)";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -342,6 +353,7 @@
 				D4A2CE1326A1748B00A1B814 /* 76501_NegatvieAndPositiveSum.swift in Sources */,
 				D4AE649F2699593500A96D97 /* 42893_PrimeNumber.swift in Sources */,
 				D4A2CE1526A17B2A00A1B814 /* 77884_Divisor.swift in Sources */,
+				D48FDB0126DDC96B003BCB0F /* 167_TwoSumPart2.swift in Sources */,
 				D414836226AF95D40034DF4A /* Chess.swift in Sources */,
 				D414849F26BD2C0A0034DF4A /* 94_BinaryTree.swift in Sources */,
 				D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */,

@@ -7,9 +7,6 @@
 
 import Foundation
 
-print(SearchInsertPosition.searchInsert([1,3,5,6], 5))
-print(SearchInsertPosition.searchInsert([1,3,5,6], 2))
-print(SearchInsertPosition.searchInsert([1,3,5,6], 7))
-print(SearchInsertPosition.searchInsert([1,3,5,6], 0))
-print(SearchInsertPosition.searchInsert([1], 0))
-print(SearchInsertPosition.searchInsert([1,3], 2))
+print(TwoSumPart2.twoSum([2,7,11,15], 9))
+print(TwoSumPart2.twoSum([2,3,4], 6))
+print(TwoSumPart2.twoSum([-1,0], -1))
