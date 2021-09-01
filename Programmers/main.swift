@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(ReverseWords.reverseWords("Let's take LeetCode contest"))
+print(ClimbingStairs.climbStairs2(2))

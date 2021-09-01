@@ -22,12 +22,13 @@ class ReverseWords {
     
     static func reverseWords2(_ s: String) -> String {
         var str = s.components(separatedBy: " ")
-        var result = ""
         for i in 0..<str.count {
             str[i] = String(str[i].reversed())
             // str = String 배열
         }
 
         return str.joined(separator: " ")
+        // 한줄로 표현
+//        return s.components(separatedBy: " ").map{String($0.reversed())}.joined(separator: " ")
     }
 }
