@@ -7,6 +7,4 @@
 
 import Foundation
 
-print(FibonacciNumber.fib(2))
-print(FibonacciNumber.fib(3))
-print(FibonacciNumber.fib(4))
+print(ReverseWords.reverseWords("Let's take LeetCode contest"))

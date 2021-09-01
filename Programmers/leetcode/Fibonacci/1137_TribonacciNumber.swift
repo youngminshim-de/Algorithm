@@ -27,7 +27,7 @@ class TribonacciNumber {
         
         return result[n]
     }
-    static var result = Array(repeating: 0, count: 38)
+    static var result2 = Array(repeating: 0, count: 38)
     
     static func tribonacci2(_ n: Int) -> Int {
         guard n > 1 else {
@@ -36,11 +36,11 @@ class TribonacciNumber {
         guard n != 2 else {
             return 1
         }
-        if result[n] > 0 {
-            return result[n]
+        if result2[n] > 0 {
+            return result2[n]
         } else {
-            result[n] = tribonacci2(n-1) + tribonacci2(n-2) + tribonacci2(n-3)
-            return result[n]
+            result2[n] = tribonacci2(n-1) + tribonacci2(n-2) + tribonacci2(n-3)
+            return result2[n]
         }
     }
 }
