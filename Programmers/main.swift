@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(ClimbingStairs.climbStairs2(2))
+print(HouseRobber.rob([2, 1, 1, 2]))
