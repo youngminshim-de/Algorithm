@@ -7,4 +7,5 @@
 
 import Foundation
 
-print(HouseRobber.rob([2, 1, 1, 2]))
+print(PermutationInString.checkInclusion("ab", "eidbaooo"))
+print(PermutationInString.checkInclusion("ab", "eidboaoo"))
