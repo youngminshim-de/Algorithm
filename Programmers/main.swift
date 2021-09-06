@@ -6,6 +6,6 @@
 //
 
 import Foundation
-
-print(PermutationInString.checkInclusion("ab", "eidbaooo"))
-print(PermutationInString.checkInclusion("ab", "eidboaoo"))
+var grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
+print(MaxAreaOfIsland.maxAreaOfIsland(grid))
+print(MaxAreaOfIsland.maxAreaOfIsland2(grid))
