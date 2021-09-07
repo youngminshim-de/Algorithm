@@ -6,6 +6,11 @@
 //
 
 import Foundation
-var grid = [[0,0,1,0,0,0,0,1,0,0,0,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,1,1,0,1,0,0,0,0,0,0,0,0],[0,1,0,0,1,1,0,0,1,0,1,0,0],[0,1,0,0,1,1,0,0,1,1,1,0,0],[0,0,0,0,0,0,0,0,0,0,1,0,0],[0,0,0,0,0,0,0,1,1,1,0,0,0],[0,0,0,0,0,0,0,1,1,0,0,0,0]]
-print(MaxAreaOfIsland.maxAreaOfIsland(grid))
-print(MaxAreaOfIsland.maxAreaOfIsland2(grid))
+
+var test = Problem1()
+
+print(test.solution("...!@BaT#*..y.abcdefghijklm"))
+print(test.solution("z-+.^."))
+print(test.solution("=.="))
+print(test.solution("123_.def"))
+print(test.solution("abcdefghijklmn.p"))
