@@ -8,4 +8,4 @@
 import Foundation
 
 
-Coin0.solution()
+let com = CompressionString()
