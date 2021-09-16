@@ -7,5 +7,11 @@
 
 import Foundation
 
-
-print(ConvertWords.solution("hit", "cog", ["hot","dot","dog","lot","log","cog"]))
+var A = [1, 3, 2, 1, 2, 1, 5, 3, 3, 4, 2]
+var B = [5, 8]
+var C = [2, 1, 3]
+var D = [5]
+print(FloodDepth.solution2(&A))
+print(FloodDepth.solution(&B))
+print(FloodDepth.solution(&C))
+print(FloodDepth.solution(&D))

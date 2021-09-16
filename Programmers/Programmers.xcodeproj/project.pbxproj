@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		D400F3E226F187A100D6E0FB /* 43163_ConvertWords.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400F3E126F187A100D6E0FB /* 43163_ConvertWords.swift */; };
+		D400F3E726F2050500D6E0FB /* DemoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400F3E626F2050500D6E0FB /* DemoTest.swift */; };
+		D400F3E926F215F200D6E0FB /* LongestPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400F3E826F215F200D6E0FB /* LongestPassword.swift */; };
 		D414833A26AD13D80034DF4A /* 42862_Uniform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833926AD13D70034DF4A /* 42862_Uniform.swift */; };
 		D414833C26AD230B0034DF4A /* 42860_JoyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833B26AD230B0034DF4A /* 42860_JoyStick.swift */; };
 		D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833D26AE436F0034DF4A /* GroupAnagrams.swift */; };
@@ -27,6 +29,7 @@
 		D41484A526C0DE900034DF4A /* MinimizeMaximumPair.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41484A426C0DE900034DF4A /* MinimizeMaximumPair.swift */; };
 		D438456126D9D29A00FEC869 /* ValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438456026D9D29A00FEC869 /* ValidSudoku.swift */; };
 		D438456326D9F98100FEC869 /* 283_MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438456226D9F98100FEC869 /* 283_MoveZeros.swift */; };
+		D445290B26F2353300DC632E /* FloodDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445290A26F2353300DC632E /* FloodDepth.swift */; };
 		D472A16A26E0637E00B564AE /* 876_MiddleOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472A16926E0637E00B564AE /* 876_MiddleOfLinkedList.swift */; };
 		D472A16F26E071B500B564AE /* 198_HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472A16E26E071B500B564AE /* 198_HouseRobber.swift */; };
 		D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */; };
@@ -102,6 +105,8 @@
 
 /* Begin PBXFileReference section */
 		D400F3E126F187A100D6E0FB /* 43163_ConvertWords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 43163_ConvertWords.swift; sourceTree = "<group>"; };
+		D400F3E626F2050500D6E0FB /* DemoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTest.swift; sourceTree = "<group>"; };
+		D400F3E826F215F200D6E0FB /* LongestPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPassword.swift; sourceTree = "<group>"; };
 		D414833926AD13D70034DF4A /* 42862_Uniform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42862_Uniform.swift; sourceTree = "<group>"; };
 		D414833B26AD230B0034DF4A /* 42860_JoyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42860_JoyStick.swift; sourceTree = "<group>"; };
 		D414833D26AE436F0034DF4A /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
@@ -121,6 +126,7 @@
 		D41484A426C0DE900034DF4A /* MinimizeMaximumPair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinimizeMaximumPair.swift; sourceTree = "<group>"; };
 		D438456026D9D29A00FEC869 /* ValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSudoku.swift; sourceTree = "<group>"; };
 		D438456226D9F98100FEC869 /* 283_MoveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 283_MoveZeros.swift; sourceTree = "<group>"; };
+		D445290A26F2353300DC632E /* FloodDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodDepth.swift; sourceTree = "<group>"; };
 		D472A16926E0637E00B564AE /* 876_MiddleOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 876_MiddleOfLinkedList.swift; sourceTree = "<group>"; };
 		D472A16E26E071B500B564AE /* 198_HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 198_HouseRobber.swift; sourceTree = "<group>"; };
 		D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 129_SumRootToLeaf.swift; sourceTree = "<group>"; };
@@ -198,6 +204,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D400F3E526F204E700D6E0FB /* Codility */ = {
+			isa = PBXGroup;
+			children = (
+				D400F3E626F2050500D6E0FB /* DemoTest.swift */,
+				D400F3E826F215F200D6E0FB /* LongestPassword.swift */,
+				D445290A26F2353300DC632E /* FloodDepth.swift */,
+			);
+			path = Codility;
+			sourceTree = "<group>";
+		};
 		D472A16726E0633F00B564AE /* DynamicProgramming */ = {
 			isa = PBXGroup;
 			children = (
@@ -247,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				D4AE64842692A4D200A96D97 /* main.swift */,
+				D400F3E526F204E700D6E0FB /* Codility */,
 				D4B26D5726EF1009003DCAA1 /* 2019_KaKao */,
 				D4ECDB0426EC7154003D3C99 /* 2021_Bottom_KaKao */,
 				D4ECDAD926E9AF85003D3C99 /* 2020_KaKao */,
@@ -535,6 +552,7 @@
 				D414849F26BD2C0A0034DF4A /* 94_BinaryTree.swift in Sources */,
 				D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */,
 				D4AF9E7626DFC07700E69A28 /* 746_MinCostClimbingStairs.swift in Sources */,
+				D400F3E726F2050500D6E0FB /* DemoTest.swift in Sources */,
 				D4BCFB7726D3484900323CF5 /* 1051_HeightChecker.swift in Sources */,
 				D414846826B52D870034DF4A /* 3_LongestSubstring.swift in Sources */,
 				D4B17B1626E6156000C9359D /* 695_MaxAreaOfIsland.swift in Sources */,
@@ -560,10 +578,12 @@
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
 				D4ECDB0826EC7E26003D3C99 /* Problem2.swift in Sources */,
 				D41484A526C0DE900034DF4A /* MinimizeMaximumPair.swift in Sources */,
+				D445290B26F2353300DC632E /* FloodDepth.swift in Sources */,
 				D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */,
 				D438456126D9D29A00FEC869 /* ValidSudoku.swift in Sources */,
 				D414846A26B79A2D0034DF4A /* 42883_MakeBigNumber.swift in Sources */,
 				D4AE648B2692AF6A00A96D97 /* TwoSum.swift in Sources */,
+				D400F3E926F215F200D6E0FB /* LongestPassword.swift in Sources */,
 				D48FDAF126DB3A05003BCB0F /* 704_BinarySearch.swift in Sources */,
 				D4ECDB0626EC7162003D3C99 /* Problem1.swift in Sources */,
 				D4AF9E3626DDD15F00E69A28 /* 1137_TribonacciNumber.swift in Sources */,
