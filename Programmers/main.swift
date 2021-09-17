@@ -7,10 +7,11 @@
 
 import Foundation
 
-var A = [1, 2, 5, 1, 1, 2, 3, 5, 1]
-var B = [1,1,3,3,8,8]
-var C = [2, 1, 3]
-var D = [5]
-print(RectangleBuilderGreaterArea.solution3(&A, 5))
-print(RectangleBuilderGreaterArea.solution3(&B, 2))
+var A = [5]
+var B = [5]
+var C = [1, 1, 3, 4]
+var D = [3, 3, 3, 5]
+
+print(SocksLaundering.solution(5, &C, &D))
+print(SocksLaundering.solution(1, &A, &B))
 
