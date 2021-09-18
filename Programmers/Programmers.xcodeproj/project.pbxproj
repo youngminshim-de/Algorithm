@@ -88,6 +88,7 @@
 		D4C914D926F37B4000CD072C /* TennisTournament.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914D826F37B4000CD072C /* TennisTournament.swift */; };
 		D4C914DB26F37FBD00CD072C /* ParityDegree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914DA26F37FBD00CD072C /* ParityDegree.swift */; };
 		D4C914DD26F4680900CD072C /* SocksLaundering.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914DC26F4680900CD072C /* SocksLaundering.swift */; };
+		D4C914DF26F569C000CD072C /* FirstUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914DE26F569C000CD072C /* FirstUnique.swift */; };
 		D4ECDADB26E9AF94003D3C99 /* CompressionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDADA26E9AF94003D3C99 /* CompressionString.swift */; };
 		D4ECDAFE26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDAFD26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift */; };
 		D4ECDB0626EC7162003D3C99 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDB0526EC7162003D3C99 /* Problem1.swift */; };
@@ -195,6 +196,7 @@
 		D4C914D826F37B4000CD072C /* TennisTournament.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TennisTournament.swift; sourceTree = "<group>"; };
 		D4C914DA26F37FBD00CD072C /* ParityDegree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParityDegree.swift; sourceTree = "<group>"; };
 		D4C914DC26F4680900CD072C /* SocksLaundering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocksLaundering.swift; sourceTree = "<group>"; };
+		D4C914DE26F569C000CD072C /* FirstUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUnique.swift; sourceTree = "<group>"; };
 		D4ECDADA26E9AF94003D3C99 /* CompressionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionString.swift; sourceTree = "<group>"; };
 		D4ECDAFD26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 617_MergeTwoBinaryTrees.swift; sourceTree = "<group>"; };
 		D4ECDB0526EC7162003D3C99 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				D4C914DC26F4680900CD072C /* SocksLaundering.swift */,
 				D4C914D826F37B4000CD072C /* TennisTournament.swift */,
 				D4C914DA26F37FBD00CD072C /* ParityDegree.swift */,
+				D4C914DE26F569C000CD072C /* FirstUnique.swift */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -580,6 +583,7 @@
 				D4AF9E4226DF0C9300E69A28 /* 43162_Network.swift in Sources */,
 				D4B67D6526C64FA6000E8BB7 /* 20_ValidParentheses.swift in Sources */,
 				D4B17B1126E1B78900C9359D /* PermutationInString.swift in Sources */,
+				D4C914DF26F569C000CD072C /* FirstUnique.swift in Sources */,
 				D4B17B1926E6FC1900C9359D /* Problem1_RecommendNewId.swift in Sources */,
 				D4BCFB7D26D4937700323CF5 /* 43165_TargetNumber.swift in Sources */,
 				D4B17B1F26E85F7900C9359D /* Problem2_MenuRenewal.swift in Sources */,

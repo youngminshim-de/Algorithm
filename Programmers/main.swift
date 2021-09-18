@@ -7,11 +7,9 @@
 
 import Foundation
 
-var A = [5]
-var B = [5]
-var C = [1, 1, 3, 4]
+var A = [4, 10, 5, 4, 2, 10]
+var B = [1, 4, 3, 3, 1, 2]
+var C = [6, 4, 4, 6]
 var D = [3, 3, 3, 5]
 
-print(SocksLaundering.solution(5, &C, &D))
-print(SocksLaundering.solution(1, &A, &B))
-
+print(FirstUnique.solution(&B))
