@@ -89,6 +89,10 @@
 		D4C914DB26F37FBD00CD072C /* ParityDegree.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914DA26F37FBD00CD072C /* ParityDegree.swift */; };
 		D4C914DD26F4680900CD072C /* SocksLaundering.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914DC26F4680900CD072C /* SocksLaundering.swift */; };
 		D4C914DF26F569C000CD072C /* FirstUnique.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914DE26F569C000CD072C /* FirstUnique.swift */; };
+		D4C914F126F5EFEF00CD072C /* Baemin_Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914F026F5EFEF00CD072C /* Baemin_Problem1.swift */; };
+		D4C914F326F5FAF000CD072C /* Baemin_Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914F226F5FAF000CD072C /* Baemin_Problem2.swift */; };
+		D4C914F526F617CB00CD072C /* Baemin_Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914F426F617CB00CD072C /* Baemin_Problem3.swift */; };
+		D4E7194226F6F99D00461396 /* Baemin_Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7194126F6F99D00461396 /* Baemin_Problem4.swift */; };
 		D4ECDADB26E9AF94003D3C99 /* CompressionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDADA26E9AF94003D3C99 /* CompressionString.swift */; };
 		D4ECDAFE26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDAFD26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift */; };
 		D4ECDB0626EC7162003D3C99 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDB0526EC7162003D3C99 /* Problem1.swift */; };
@@ -197,6 +201,10 @@
 		D4C914DA26F37FBD00CD072C /* ParityDegree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParityDegree.swift; sourceTree = "<group>"; };
 		D4C914DC26F4680900CD072C /* SocksLaundering.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocksLaundering.swift; sourceTree = "<group>"; };
 		D4C914DE26F569C000CD072C /* FirstUnique.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstUnique.swift; sourceTree = "<group>"; };
+		D4C914F026F5EFEF00CD072C /* Baemin_Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem1.swift; sourceTree = "<group>"; };
+		D4C914F226F5FAF000CD072C /* Baemin_Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem2.swift; sourceTree = "<group>"; };
+		D4C914F426F617CB00CD072C /* Baemin_Problem3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem3.swift; sourceTree = "<group>"; };
+		D4E7194126F6F99D00461396 /* Baemin_Problem4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem4.swift; sourceTree = "<group>"; };
 		D4ECDADA26E9AF94003D3C99 /* CompressionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionString.swift; sourceTree = "<group>"; };
 		D4ECDAFD26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 617_MergeTwoBinaryTrees.swift; sourceTree = "<group>"; };
 		D4ECDB0526EC7162003D3C99 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -281,6 +289,7 @@
 			isa = PBXGroup;
 			children = (
 				D4AE64842692A4D200A96D97 /* main.swift */,
+				D4C914EF26F5EFE800CD072C /* 배민 */,
 				D400F3E526F204E700D6E0FB /* Codility */,
 				D4B26D5726EF1009003DCAA1 /* 2019_KaKao */,
 				D4ECDB0426EC7154003D3C99 /* 2021_Bottom_KaKao */,
@@ -456,6 +465,18 @@
 			path = 2019_KaKao;
 			sourceTree = "<group>";
 		};
+		D4C914EF26F5EFE800CD072C /* 배민 */ = {
+			isa = PBXGroup;
+			children = (
+				D4C914F026F5EFEF00CD072C /* Baemin_Problem1.swift */,
+				D4C914F226F5FAF000CD072C /* Baemin_Problem2.swift */,
+				D4C914F426F617CB00CD072C /* Baemin_Problem3.swift */,
+				D4E7194126F6F99D00461396 /* Baemin_Problem4.swift */,
+			);
+			name = "배민";
+			path = "배민";
+			sourceTree = "<group>";
+		};
 		D4ECDAD926E9AF85003D3C99 /* 2020_KaKao */ = {
 			isa = PBXGroup;
 			children = (
@@ -540,6 +561,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4E7194226F6F99D00461396 /* Baemin_Problem4.swift in Sources */,
 				D48FDAF926DC6F3B003BCB0F /* 977_SquaresOfaSortedArray.swift in Sources */,
 				D414836826B0DE1F0034DF4A /* MergeTwoSortedLists.swift in Sources */,
 				D4BCFB8C26D5E76600323CF5 /* 781_Rabbits.swift in Sources */,
@@ -566,6 +588,7 @@
 				D4A2CE1526A17B2A00A1B814 /* 77884_Divisor.swift in Sources */,
 				D4B17B2126E878A300C9359D /* 11047_동전0.swift in Sources */,
 				D48FDB0126DDC96B003BCB0F /* 167_TwoSumPart2.swift in Sources */,
+				D4C914F326F5FAF000CD072C /* Baemin_Problem2.swift in Sources */,
 				D4AF9E3426DDCEAE00E69A28 /* 509_FibonacciNumber.swift in Sources */,
 				D4AF9E4526DF18A900E69A28 /* 344_ReverseString.swift in Sources */,
 				D414836226AF95D40034DF4A /* Chess.swift in Sources */,
@@ -579,6 +602,7 @@
 				D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */,
 				D414842E26B37EBB0034DF4A /* 2_AddTwoNumbers.swift in Sources */,
 				D4ECDB0C26ECA5FB003D3C99 /* Problem5.swift in Sources */,
+				D4C914F526F617CB00CD072C /* Baemin_Problem3.swift in Sources */,
 				D400F3E226F187A100D6E0FB /* 43163_ConvertWords.swift in Sources */,
 				D4AF9E4226DF0C9300E69A28 /* 43162_Network.swift in Sources */,
 				D4B67D6526C64FA6000E8BB7 /* 20_ValidParentheses.swift in Sources */,
@@ -608,6 +632,7 @@
 				D48FDAF126DB3A05003BCB0F /* 704_BinarySearch.swift in Sources */,
 				D4ECDB0626EC7162003D3C99 /* Problem1.swift in Sources */,
 				D4C914D526F34C1B00CD072C /* BinaryGap.swift in Sources */,
+				D4C914F126F5EFEF00CD072C /* Baemin_Problem1.swift in Sources */,
 				D4AF9E3626DDD15F00E69A28 /* 1137_TribonacciNumber.swift in Sources */,
 				D4B67D3D26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift in Sources */,
 				D472A16A26E0637E00B564AE /* 876_MiddleOfLinkedList.swift in Sources */,

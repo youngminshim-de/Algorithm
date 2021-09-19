@@ -12,7 +12,7 @@ class FirstUnique {
         let dict = A.reduce(into: [:]) { (counts, value) in
             counts[value, default: 0] += 1
         }
-        
+
         for value in A {
             if dict[value] == 1 {
                 return value
