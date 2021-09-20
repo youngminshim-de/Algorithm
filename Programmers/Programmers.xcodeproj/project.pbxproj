@@ -93,6 +93,8 @@
 		D4C914F326F5FAF000CD072C /* Baemin_Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914F226F5FAF000CD072C /* Baemin_Problem2.swift */; };
 		D4C914F526F617CB00CD072C /* Baemin_Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914F426F617CB00CD072C /* Baemin_Problem3.swift */; };
 		D4E7194226F6F99D00461396 /* Baemin_Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7194126F6F99D00461396 /* Baemin_Problem4.swift */; };
+		D4E7194E26F82C6800461396 /* strSymmetryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7194D26F82C6800461396 /* strSymmetryPoint.swift */; };
+		D4E7195026F8312100461396 /* TreeHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7194F26F8312100461396 /* TreeHeight.swift */; };
 		D4ECDADB26E9AF94003D3C99 /* CompressionString.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDADA26E9AF94003D3C99 /* CompressionString.swift */; };
 		D4ECDAFE26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDAFD26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift */; };
 		D4ECDB0626EC7162003D3C99 /* Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4ECDB0526EC7162003D3C99 /* Problem1.swift */; };
@@ -205,6 +207,8 @@
 		D4C914F226F5FAF000CD072C /* Baemin_Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem2.swift; sourceTree = "<group>"; };
 		D4C914F426F617CB00CD072C /* Baemin_Problem3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem3.swift; sourceTree = "<group>"; };
 		D4E7194126F6F99D00461396 /* Baemin_Problem4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem4.swift; sourceTree = "<group>"; };
+		D4E7194D26F82C6800461396 /* strSymmetryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strSymmetryPoint.swift; sourceTree = "<group>"; };
+		D4E7194F26F8312100461396 /* TreeHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeHeight.swift; sourceTree = "<group>"; };
 		D4ECDADA26E9AF94003D3C99 /* CompressionString.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompressionString.swift; sourceTree = "<group>"; };
 		D4ECDAFD26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 617_MergeTwoBinaryTrees.swift; sourceTree = "<group>"; };
 		D4ECDB0526EC7162003D3C99 /* Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem1.swift; sourceTree = "<group>"; };
@@ -236,6 +240,8 @@
 				D4C914D826F37B4000CD072C /* TennisTournament.swift */,
 				D4C914DA26F37FBD00CD072C /* ParityDegree.swift */,
 				D4C914DE26F569C000CD072C /* FirstUnique.swift */,
+				D4E7194D26F82C6800461396 /* strSymmetryPoint.swift */,
+				D4E7194F26F8312100461396 /* TreeHeight.swift */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -592,6 +598,7 @@
 				D4AF9E3426DDCEAE00E69A28 /* 509_FibonacciNumber.swift in Sources */,
 				D4AF9E4526DF18A900E69A28 /* 344_ReverseString.swift in Sources */,
 				D414836226AF95D40034DF4A /* Chess.swift in Sources */,
+				D4E7194E26F82C6800461396 /* strSymmetryPoint.swift in Sources */,
 				D414849F26BD2C0A0034DF4A /* 94_BinaryTree.swift in Sources */,
 				D4AE64C3269E73FF00A96D97 /* 961_N-RepeatedElement.swift in Sources */,
 				D4AF9E7626DFC07700E69A28 /* 746_MinCostClimbingStairs.swift in Sources */,
@@ -632,6 +639,7 @@
 				D48FDAF126DB3A05003BCB0F /* 704_BinarySearch.swift in Sources */,
 				D4ECDB0626EC7162003D3C99 /* Problem1.swift in Sources */,
 				D4C914D526F34C1B00CD072C /* BinaryGap.swift in Sources */,
+				D4E7195026F8312100461396 /* TreeHeight.swift in Sources */,
 				D4C914F126F5EFEF00CD072C /* Baemin_Problem1.swift in Sources */,
 				D4AF9E3626DDD15F00E69A28 /* 1137_TribonacciNumber.swift in Sources */,
 				D4B67D3D26C4D6F0000E8BB7 /* 946_ValidateStackSequences.swift in Sources */,
