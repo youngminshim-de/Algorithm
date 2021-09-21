@@ -6,10 +6,9 @@
 //
 
 import Foundation
-var S = "racecar"
-var A = "x"
-var C = ""
-print(StrSysmmetryPoint.solution(&S))
-print(StrSysmmetryPoint.solution(&A))
-print(StrSysmmetryPoint.solution(&C))
+
+var A = [-1, 6, 3, 4, 7, 4]
+var B = [5, 4, 3, 2, 1]
+print(ArrayInversionCount.solution(&A))
+print(ArrayInversionCount.solution(&B))
 
