@@ -22,6 +22,7 @@ class ArrayInversionCount {
         let left = Array(array[0..<center])
         let right = Array(array[center..<array.count])
         
+        print("left: \(left[0]), right: \(right[0]), center: \(center)")
         func merge(_ left: [Int], _ right: [Int]) -> [Int] {
             var left = left
             var right = right
@@ -32,7 +33,7 @@ class ArrayInversionCount {
                     result.append(left.removeFirst())
                 } else {
                     count += 1
-                    print("left: \(left[0]), right: \(right[0])")
+                    
                     result.append(right.removeFirst())
                 }
             }

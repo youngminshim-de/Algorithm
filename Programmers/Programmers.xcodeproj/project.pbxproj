@@ -30,6 +30,7 @@
 		D438456126D9D29A00FEC869 /* ValidSudoku.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438456026D9D29A00FEC869 /* ValidSudoku.swift */; };
 		D438456326D9F98100FEC869 /* 283_MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438456226D9F98100FEC869 /* 283_MoveZeros.swift */; };
 		D445290B26F2353300DC632E /* FloodDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445290A26F2353300DC632E /* FloodDepth.swift */; };
+		D4480EF726FAF089004213BC /* ArrayListLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4480EF626FAF089004213BC /* ArrayListLength.swift */; };
 		D472A16A26E0637E00B564AE /* 876_MiddleOfLinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472A16926E0637E00B564AE /* 876_MiddleOfLinkedList.swift */; };
 		D472A16F26E071B500B564AE /* 198_HouseRobber.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472A16E26E071B500B564AE /* 198_HouseRobber.swift */; };
 		D48BB52D26A9582F00B57A4D /* 129_SumRootToLeaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */; };
@@ -140,6 +141,7 @@
 		D438456026D9D29A00FEC869 /* ValidSudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidSudoku.swift; sourceTree = "<group>"; };
 		D438456226D9F98100FEC869 /* 283_MoveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 283_MoveZeros.swift; sourceTree = "<group>"; };
 		D445290A26F2353300DC632E /* FloodDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodDepth.swift; sourceTree = "<group>"; };
+		D4480EF626FAF089004213BC /* ArrayListLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayListLength.swift; sourceTree = "<group>"; };
 		D472A16926E0637E00B564AE /* 876_MiddleOfLinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 876_MiddleOfLinkedList.swift; sourceTree = "<group>"; };
 		D472A16E26E071B500B564AE /* 198_HouseRobber.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 198_HouseRobber.swift; sourceTree = "<group>"; };
 		D48BB52C26A9582F00B57A4D /* 129_SumRootToLeaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 129_SumRootToLeaf.swift; sourceTree = "<group>"; };
@@ -245,6 +247,7 @@
 				D4E7194D26F82C6800461396 /* strSymmetryPoint.swift */,
 				D4E7194F26F8312100461396 /* TreeHeight.swift */,
 				D4E7195126FA06B500461396 /* ArrayInversionCount.swift */,
+				D4480EF626FAF089004213BC /* ArrayListLength.swift */,
 			);
 			path = Codility;
 			sourceTree = "<group>";
@@ -615,6 +618,7 @@
 				D4C914F526F617CB00CD072C /* Baemin_Problem3.swift in Sources */,
 				D400F3E226F187A100D6E0FB /* 43163_ConvertWords.swift in Sources */,
 				D4AF9E4226DF0C9300E69A28 /* 43162_Network.swift in Sources */,
+				D4480EF726FAF089004213BC /* ArrayListLength.swift in Sources */,
 				D4B67D6526C64FA6000E8BB7 /* 20_ValidParentheses.swift in Sources */,
 				D4B17B1126E1B78900C9359D /* PermutationInString.swift in Sources */,
 				D4C914DF26F569C000CD072C /* FirstUnique.swift in Sources */,

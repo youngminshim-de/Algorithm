@@ -12,3 +12,6 @@ var B = [5, 4, 3, 2, 1]
 print(ArrayInversionCount.solution(&A))
 print(ArrayInversionCount.solution(&B))
 
+var C = [1, 4, -1, 3, 2]
+print(ArrayListLength.solution(&C))
+
