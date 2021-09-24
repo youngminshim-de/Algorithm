@@ -7,11 +7,5 @@
 
 import Foundation
 
-var A = [-1, 6, 3, 4, 7, 4]
-var B = [5, 4, 3, 2, 1]
-print(ArrayInversionCount.solution(&A))
-print(ArrayInversionCount.solution(&B))
-
-var C = [1, 4, -1, 3, 2]
-print(ArrayListLength.solution(&C))
-
+var A = [3, 5, 7, 6, 3]
+print(CountBoundedSlice.solution(2, &A))
