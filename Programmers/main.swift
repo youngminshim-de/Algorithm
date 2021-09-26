@@ -7,5 +7,4 @@
 
 import Foundation
 
-var A = [3, 5, 7, 6, 3]
-print(CountBoundedSlice.solution(2, &A))
+print(MR_Problem3.solution([[1,3], [2, 6], [8, 10], [15,18]]))
