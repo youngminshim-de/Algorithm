@@ -36,6 +36,33 @@ class CountBoundedSlice {
     
     static func solution2(_ K: Int, _ A: inout [Int]) -> Int {
         var result = 0
+        var current = 0
+        var next = current
+        var minimum = A[current]
+        var maximum = A[current]
+        
+        while current < A.count {
+            if current == next {
+                maximum = A[current]
+                minimum = A[current]
+            }
+            
+            if next == A.count {
+                current += 1
+                next = current
+                continue
+            }
+
+            if abs(minimum - A[next]) > K || abs(maximum - A[next]) > K{
+                current += 1
+                next = current
+            } else {
+                result += 1
+                maximum = max(maximum, A[next])
+                minimum = min(minimum, A[next])
+                next += 1
+            }
+        }
         
         return result
     }

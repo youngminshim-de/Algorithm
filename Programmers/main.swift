@@ -7,4 +7,7 @@
 
 import Foundation
 
-print(MR_Problem3.solution([[1,3], [2, 6], [8, 10], [15,18]]))
+print(TripRoute.solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
+print(TripRoute.solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
+
+
