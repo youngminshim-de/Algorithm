@@ -11,6 +11,7 @@
 		D400F3E726F2050500D6E0FB /* DemoTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400F3E626F2050500D6E0FB /* DemoTest.swift */; };
 		D400F3E926F215F200D6E0FB /* LongestPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = D400F3E826F215F200D6E0FB /* LongestPassword.swift */; };
 		D4075AA8270444D800117D3D /* 43164_TripRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4075AA7270444D800117D3D /* 43164_TripRoute.swift */; };
+		D4075AAA2705681600117D3D /* 43238_Immigration.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4075AA92705681600117D3D /* 43238_Immigration.swift */; };
 		D414833A26AD13D80034DF4A /* 42862_Uniform.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833926AD13D70034DF4A /* 42862_Uniform.swift */; };
 		D414833C26AD230B0034DF4A /* 42860_JoyStick.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833B26AD230B0034DF4A /* 42860_JoyStick.swift */; };
 		D414833E26AE436F0034DF4A /* GroupAnagrams.swift in Sources */ = {isa = PBXBuildFile; fileRef = D414833D26AE436F0034DF4A /* GroupAnagrams.swift */; };
@@ -127,6 +128,7 @@
 		D400F3E626F2050500D6E0FB /* DemoTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoTest.swift; sourceTree = "<group>"; };
 		D400F3E826F215F200D6E0FB /* LongestPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LongestPassword.swift; sourceTree = "<group>"; };
 		D4075AA7270444D800117D3D /* 43164_TripRoute.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 43164_TripRoute.swift; sourceTree = "<group>"; };
+		D4075AA92705681600117D3D /* 43238_Immigration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 43238_Immigration.swift; sourceTree = "<group>"; };
 		D414833926AD13D70034DF4A /* 42862_Uniform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42862_Uniform.swift; sourceTree = "<group>"; };
 		D414833B26AD230B0034DF4A /* 42860_JoyStick.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 42860_JoyStick.swift; sourceTree = "<group>"; };
 		D414833D26AE436F0034DF4A /* GroupAnagrams.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupAnagrams.swift; sourceTree = "<group>"; };
@@ -367,6 +369,7 @@
 				D4AF9E4126DF0C9300E69A28 /* 43162_Network.swift */,
 				D400F3E126F187A100D6E0FB /* 43163_ConvertWords.swift */,
 				D4075AA7270444D800117D3D /* 43164_TripRoute.swift */,
+				D4075AA92705681600117D3D /* 43238_Immigration.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -663,6 +666,7 @@
 				D4AE64862692A78900A96D97 /* main.swift in Sources */,
 				D4ECDB0826EC7E26003D3C99 /* Problem2.swift in Sources */,
 				D41484A526C0DE900034DF4A /* MinimizeMaximumPair.swift in Sources */,
+				D4075AAA2705681600117D3D /* 43238_Immigration.swift in Sources */,
 				D445290B26F2353300DC632E /* FloodDepth.swift in Sources */,
 				D4AE6494269308CD00A96D97 /* 42746_MostBigNumber.swift in Sources */,
 				D438456126D9D29A00FEC869 /* ValidSudoku.swift in Sources */,

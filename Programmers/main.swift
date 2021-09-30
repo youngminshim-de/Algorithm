@@ -7,7 +7,6 @@
 
 import Foundation
 
-print(TripRoute.solution([["ICN", "JFK"], ["HND", "IAD"], ["JFK", "HND"]]))
-print(TripRoute.solution([["ICN", "SFO"], ["ICN", "ATL"], ["SFO", "ATL"], ["ATL", "ICN"], ["ATL","SFO"]]))
+print(Immigration.solution2(6, [7, 10]))
 
 
