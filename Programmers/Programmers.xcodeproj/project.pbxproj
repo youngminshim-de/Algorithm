@@ -99,6 +99,7 @@
 		D4C914F126F5EFEF00CD072C /* Baemin_Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914F026F5EFEF00CD072C /* Baemin_Problem1.swift */; };
 		D4C914F326F5FAF000CD072C /* Baemin_Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914F226F5FAF000CD072C /* Baemin_Problem2.swift */; };
 		D4C914F526F617CB00CD072C /* Baemin_Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C914F426F617CB00CD072C /* Baemin_Problem3.swift */; };
+		D4DC8FFA270C3E8500D37826 /* 84521_VowelDictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DC8FF9270C3E8400D37826 /* 84521_VowelDictionary.swift */; };
 		D4E7194226F6F99D00461396 /* Baemin_Problem4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7194126F6F99D00461396 /* Baemin_Problem4.swift */; };
 		D4E7194E26F82C6800461396 /* strSymmetryPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7194D26F82C6800461396 /* strSymmetryPoint.swift */; };
 		D4E7195026F8312100461396 /* TreeHeight.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4E7194F26F8312100461396 /* TreeHeight.swift */; };
@@ -221,6 +222,7 @@
 		D4C914F026F5EFEF00CD072C /* Baemin_Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem1.swift; sourceTree = "<group>"; };
 		D4C914F226F5FAF000CD072C /* Baemin_Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem2.swift; sourceTree = "<group>"; };
 		D4C914F426F617CB00CD072C /* Baemin_Problem3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem3.swift; sourceTree = "<group>"; };
+		D4DC8FF9270C3E8400D37826 /* 84521_VowelDictionary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 84521_VowelDictionary.swift; sourceTree = "<group>"; };
 		D4E7194126F6F99D00461396 /* Baemin_Problem4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baemin_Problem4.swift; sourceTree = "<group>"; };
 		D4E7194D26F82C6800461396 /* strSymmetryPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = strSymmetryPoint.swift; sourceTree = "<group>"; };
 		D4E7194F26F8312100461396 /* TreeHeight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreeHeight.swift; sourceTree = "<group>"; };
@@ -370,6 +372,7 @@
 				D400F3E126F187A100D6E0FB /* 43163_ConvertWords.swift */,
 				D4075AA7270444D800117D3D /* 43164_TripRoute.swift */,
 				D4075AA92705681600117D3D /* 43238_Immigration.swift */,
+				D4DC8FF9270C3E8400D37826 /* 84521_VowelDictionary.swift */,
 			);
 			path = Programmers;
 			sourceTree = "<group>";
@@ -690,6 +693,7 @@
 				D4B26D5926EF101B003DCAA1 /* OpenChatting.swift in Sources */,
 				D4BCFB5126CE529E00323CF5 /* 15649_NAndM.swift in Sources */,
 				D4AE649D2696E33500A96D97 /* Duplicate.swift in Sources */,
+				D4DC8FFA270C3E8500D37826 /* 84521_VowelDictionary.swift in Sources */,
 				D4AE64C5269E852300A96D97 /* 42578_Disguise.swift in Sources */,
 				D472733B270067F400771FBB /* MR_Problem3.swift in Sources */,
 				D4ECDB0A26EC9135003D3C99 /* Problem3.swift in Sources */,
