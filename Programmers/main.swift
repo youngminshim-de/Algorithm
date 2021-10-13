@@ -7,8 +7,9 @@
 
 import Foundation
 
-print(WhereWilltheBallFall.solution([[1,1,1,-1,-1],[1,1,1,-1,-1],[-1,-1,-1,1,1],[1,1,1,1,-1],[-1,-1,-1,-1,-1]]))
-print(WhereWilltheBallFall.solution([[-1]]))
-print(WhereWilltheBallFall.solution([[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1],[1,1,1,1,1,1],[-1,-1,-1,-1,-1,-1]]))
+print(NumberStringAndWords.solution("one4seveneight"))
+print(NumberStringAndWords.solution("23four5six7"))
+print(NumberStringAndWords.solution("2three45sixseven"))
+print(NumberStringAndWords.solution("123"))
 
 
