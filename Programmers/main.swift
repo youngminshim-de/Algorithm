@@ -7,9 +7,7 @@
 
 import Foundation
 
-print(NumberStringAndWords.solution3("one4seveneight"))
-print(NumberStringAndWords.solution3("23four5six7"))
-print(NumberStringAndWords.solution3("2three45sixseven"))
-print(NumberStringAndWords.solution3("123"))
+print(NormalRectangle.solution2(3, 1))
+//print(NormalRectangle.solution2(8, 12))
 
 
