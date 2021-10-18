@@ -34,6 +34,7 @@
 		D445290B26F2353300DC632E /* FloodDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445290A26F2353300DC632E /* FloodDepth.swift */; };
 		D4480EF726FAF089004213BC /* ArrayListLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4480EF626FAF089004213BC /* ArrayListLength.swift */; };
 		D45E12D327191FE1003DEC53 /* 68644_두개뽑아서더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E12D227191FE1003DEC53 /* 68644_두개뽑아서더하기.swift */; };
+		D45E12D5271D344E003DEC53 /* 79_WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E12D4271D344E003DEC53 /* 79_WordSearch.swift */; };
 		D472733426FD719B00771FBB /* CountBoundedSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472733326FD719B00771FBB /* CountBoundedSlice.swift */; };
 		D4727337270067D900771FBB /* MR_Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4727336270067D900771FBB /* MR_Problem1.swift */; };
 		D4727339270067E700771FBB /* MR_Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4727338270067E700771FBB /* MR_Problem2.swift */; };
@@ -156,6 +157,7 @@
 		D445290A26F2353300DC632E /* FloodDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodDepth.swift; sourceTree = "<group>"; };
 		D4480EF626FAF089004213BC /* ArrayListLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayListLength.swift; sourceTree = "<group>"; };
 		D45E12D227191FE1003DEC53 /* 68644_두개뽑아서더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "68644_두개뽑아서더하기.swift"; sourceTree = "<group>"; };
+		D45E12D4271D344E003DEC53 /* 79_WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 79_WordSearch.swift; sourceTree = "<group>"; };
 		D472733326FD719B00771FBB /* CountBoundedSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountBoundedSlice.swift; sourceTree = "<group>"; };
 		D4727336270067D900771FBB /* MR_Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MR_Problem1.swift; sourceTree = "<group>"; };
 		D4727338270067E700771FBB /* MR_Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MR_Problem2.swift; sourceTree = "<group>"; };
@@ -430,6 +432,7 @@
 				D4B9329026D75AD900084ECA /* 1823_FindTheWinnerOfTheCircularGame.swift */,
 				D438456026D9D29A00FEC869 /* ValidSudoku.swift */,
 				D49326E52715C10D007C63F5 /* 1706_WhereWilltheBallFall.swift */,
+				D45E12D4271D344E003DEC53 /* 79_WordSearch.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -709,6 +712,7 @@
 				D4AE649D2696E33500A96D97 /* Duplicate.swift in Sources */,
 				D4DC8FFA270C3E8500D37826 /* 84521_VowelDictionary.swift in Sources */,
 				D4AE64C5269E852300A96D97 /* 42578_Disguise.swift in Sources */,
+				D45E12D5271D344E003DEC53 /* 79_WordSearch.swift in Sources */,
 				D472733B270067F400771FBB /* MR_Problem3.swift in Sources */,
 				D4ECDB0A26EC9135003D3C99 /* Problem3.swift in Sources */,
 				D4C914DB26F37FBD00CD072C /* ParityDegree.swift in Sources */,
