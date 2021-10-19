@@ -22,12 +22,10 @@ class WordSearch {
         }
 
         func dfs(_ row: Int, _ column: Int, _ current: Int, _ result: String) {
-            guard row >= 0 && row < board.count else {
+            guard row >= 0 && row < board.count && column >= 0 && column < board[0].count else {
                 return
             }
-            guard column >= 0 && column < board[0].count else {
-                return
-            }
+
             guard current < word.count else {
                 if word.joined() == result {
                     answer = true
