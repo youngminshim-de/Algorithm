@@ -7,5 +7,5 @@
 
 import Foundation
 
-print(LongestPalindromicSubstring.solution("aba"))
+print(Triplets.solution([-2, 0, 1, 1, 2]))
 

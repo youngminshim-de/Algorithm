@@ -33,6 +33,7 @@
 		D438456326D9F98100FEC869 /* 283_MoveZeros.swift in Sources */ = {isa = PBXBuildFile; fileRef = D438456226D9F98100FEC869 /* 283_MoveZeros.swift */; };
 		D445290B26F2353300DC632E /* FloodDepth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D445290A26F2353300DC632E /* FloodDepth.swift */; };
 		D4480EF726FAF089004213BC /* ArrayListLength.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4480EF626FAF089004213BC /* ArrayListLength.swift */; };
+		D4544D85271FAD1E00C05315 /* 15_3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4544D84271FAD1E00C05315 /* 15_3Sum.swift */; };
 		D45E12D327191FE1003DEC53 /* 68644_두개뽑아서더하기.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E12D227191FE1003DEC53 /* 68644_두개뽑아서더하기.swift */; };
 		D45E12D5271D344E003DEC53 /* 79_WordSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E12D4271D344E003DEC53 /* 79_WordSearch.swift */; };
 		D45E12D7271E5977003DEC53 /* 5_LongestPalindromicSubstring.swift in Sources */ = {isa = PBXBuildFile; fileRef = D45E12D6271E5977003DEC53 /* 5_LongestPalindromicSubstring.swift */; };
@@ -157,6 +158,7 @@
 		D438456226D9F98100FEC869 /* 283_MoveZeros.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 283_MoveZeros.swift; sourceTree = "<group>"; };
 		D445290A26F2353300DC632E /* FloodDepth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloodDepth.swift; sourceTree = "<group>"; };
 		D4480EF626FAF089004213BC /* ArrayListLength.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayListLength.swift; sourceTree = "<group>"; };
+		D4544D84271FAD1E00C05315 /* 15_3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 15_3Sum.swift; sourceTree = "<group>"; };
 		D45E12D227191FE1003DEC53 /* 68644_두개뽑아서더하기.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "68644_두개뽑아서더하기.swift"; sourceTree = "<group>"; };
 		D45E12D4271D344E003DEC53 /* 79_WordSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 79_WordSearch.swift; sourceTree = "<group>"; };
 		D45E12D6271E5977003DEC53 /* 5_LongestPalindromicSubstring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 5_LongestPalindromicSubstring.swift; sourceTree = "<group>"; };
@@ -436,6 +438,7 @@
 				D438456026D9D29A00FEC869 /* ValidSudoku.swift */,
 				D49326E52715C10D007C63F5 /* 1706_WhereWilltheBallFall.swift */,
 				D45E12D4271D344E003DEC53 /* 79_WordSearch.swift */,
+				D4544D84271FAD1E00C05315 /* 15_3Sum.swift */,
 			);
 			path = leetcode;
 			sourceTree = "<group>";
@@ -719,6 +722,7 @@
 				D472733B270067F400771FBB /* MR_Problem3.swift in Sources */,
 				D4ECDB0A26EC9135003D3C99 /* Problem3.swift in Sources */,
 				D45E12D7271E5977003DEC53 /* 5_LongestPalindromicSubstring.swift in Sources */,
+				D4544D85271FAD1E00C05315 /* 15_3Sum.swift in Sources */,
 				D4C914DB26F37FBD00CD072C /* ParityDegree.swift in Sources */,
 				D4C914D726F34E7C00CD072C /* RectangleBuilderGreaterArea.swift in Sources */,
 				D4AE64982694208500A96D97 /* RomanToInteger.swift in Sources */,
