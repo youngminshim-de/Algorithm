@@ -17,18 +17,21 @@ class CombinationSum {
             return []
         }
         
-        func dfs(_ array: inout [Int], _ sum: Int, _ index: Int) {
-            guard sum != 0 else {
+        func dfs(_ array: inout [Int], _ remain: Int, _ index: Int) {
+            guard remain != 0 else {
                 result.append(array)
                 return
             }
-            guard sum >= candidates[0] else {
+            guard remain > 0 else {
                 return
             }
+//            guard remain >= candidates[0] else {
+//                return
+//            }
             
             for i in index..<candidates.count {
                 array.append(candidates[i])
-                dfs(&array, sum - candidates[i], i)
+                dfs(&array, remain - candidates[i], i)
                 array.removeLast()
             }
         }
