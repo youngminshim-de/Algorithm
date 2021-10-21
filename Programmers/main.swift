@@ -7,5 +7,9 @@
 
 import Foundation
 
-print(Triplets.solution([-2, 0, 1, 1, 2]))
+print(CombinationSum.soliution([2,3,6,7], 7))
+print(CombinationSum.soliution([2,3,5], 8))
+print(CombinationSum.soliution([2], 1))
+print(CombinationSum.soliution([1], 2))
+
 
