@@ -7,9 +7,6 @@
 
 import Foundation
 
-print(CombinationSum.soliution([2,3,6,7], 7))
-print(CombinationSum.soliution([2,3,5], 8))
-print(CombinationSum.soliution([2], 1))
-print(CombinationSum.soliution([1], 2))
-
+print(JumpGame.solution([2,3,1,1,4]))
+print(JumpGame.solution([3,2,1,0,4]))
 
