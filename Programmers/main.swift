@@ -7,6 +7,8 @@
 
 import Foundation
 
-print(JumpGame.solution([2,3,1,1,4]))
-print(JumpGame.solution([3,2,1,0,4]))
+print(MergeInterval.solution2([[1,3],[2,6],[8,10],[15,18]]))
+print(MergeInterval.solution2([[1,4],[5,6]]))
+print(MergeInterval.solution2([[1,4],[0,0]]))
+print(MergeInterval.solution2([[1,4],[0,2], [3,5]]))
 
