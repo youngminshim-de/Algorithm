@@ -7,8 +7,7 @@
 
 import Foundation
 
-print(MergeInterval.solution2([[1,3],[2,6],[8,10],[15,18]]))
-print(MergeInterval.solution2([[1,4],[5,6]]))
-print(MergeInterval.solution2([[1,4],[0,0]]))
-print(MergeInterval.solution2([[1,4],[0,2], [3,5]]))
+print(InsertInterval.solution([[1,3],[6,9]], [2,5]))
+print(InsertInterval.solution([], [5,7]))
+print(InsertInterval.solution([[1,5]], [0,3]))
 
