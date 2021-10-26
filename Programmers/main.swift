@@ -7,7 +7,4 @@
 
 import Foundation
 
-print(InsertInterval.solution([[1,3],[6,9]], [2,5]))
-print(InsertInterval.solution([], [5,7]))
-print(InsertInterval.solution([[1,5]], [0,3]))
-
+print(UniquePaths.solution2(3, 7))
