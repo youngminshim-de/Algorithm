@@ -7,4 +7,9 @@
 
 import Foundation
 
-print(UniquePaths.solution2(3, 7))
+var matrix = [[1,1,1],[1,0,1],[1,1,1]]
+var matrix2 = [[0,1,2,0],[3,4,5,2],[1,3,1,5]]
+
+
+print(SetMatrixZeroes.solution(&matrix))
+print(SetMatrixZeroes.solution(&matrix2))
