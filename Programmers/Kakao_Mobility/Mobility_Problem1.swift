@@ -61,6 +61,8 @@ class Mobility_Problem1 {
             }
             
             for i in index..<A.count {
+                // 개수가 안될경우 return ?
+                // 그럼 좀 줄일 수있나
                 if !checkList[i] {
                     checkList[i] = true
                     dfs(count + 1, i, sum + A[i])

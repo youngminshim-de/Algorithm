@@ -39,12 +39,15 @@ class Car_Problem4 {
     static func solution2(_ n: Int) -> Int {
         var result = 0
         let binary = String(n, radix: 2)
+        
+        // n을 이진수로 바꾼 binary에 1이 몇개가 있는지 count하여 numberOfOne에 담는다.
+        // 즉 1의 개수
         let numberOfOne = binary.reduce(into: [:]) { counts, letter in
             counts[letter, default: 0] += 1
         }["1"]!
         
         var array = Array(repeating: "0", count: binary.count)
-        
+        // 1의 개수개 만큼 뽑는 조합 -> dfs를 이용하여 해결
         func dfs(_ array: inout [String], _ count: Int, _ index: Int) {
             
             if count == numberOfOne {
@@ -54,6 +57,7 @@ class Car_Problem4 {
                 }
                 return
             }
+            
             for i in index..<binary.count {
                 if array[i] == "0" {
                     array[i] = "1"

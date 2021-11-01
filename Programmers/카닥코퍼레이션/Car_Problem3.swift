@@ -17,6 +17,8 @@ class Car_Problem3 {
         var count = 1
         var indexOfAdd = 0
         while array.count < n {
+            // 2 ^ n 번째는 3의 배수가 들어가야 한다.
+            // index는 2의 제곱만큼 늘어난다.
             
             if index - 1 == array.count {
                 count *= 3
@@ -25,6 +27,8 @@ class Car_Problem3 {
                 indexOfAdd = 0
                 
             } else {
+                // 2^n번째가 아닐경우 현재 count에다가
+                // array[0]~array[index-1] 까지 더한다.
                 array.append(count + array[indexOfAdd])
                 indexOfAdd += 1
             }
