@@ -7,4 +7,4 @@
 
 import Foundation
 
-print(HanoiTower.solution())
+Z.solution()
