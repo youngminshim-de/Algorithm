@@ -7,4 +7,4 @@
 
 import Foundation
 
-Z.solution()
+PartialSequence.solution()
