@@ -7,4 +7,26 @@
 
 import Foundation
 
-PartialSequence.solution()
+//class Ex_13 {
+//    static var sum = 0
+//    var data = 0
+//    
+//    static func main() {
+//        var test = Ex_13()
+//        
+//        var data = 0
+//        var sum = 0
+//        
+//        while(data<=10) {
+//            sum += data
+//            data += 1
+//        }
+//        
+//        print("\(data) : \(Ex_13.sum)")
+//    }
+//}
+//
+//Ex_13.main()
+
+print(Tumblbug_Problem2.solution(21))
+print(Tumblbug_Problem2.solution(111))

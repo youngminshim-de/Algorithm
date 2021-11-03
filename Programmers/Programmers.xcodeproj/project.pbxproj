@@ -51,6 +51,9 @@
 		D46853F4272F8BC50092725F /* 11729_HanoiTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46853F3272F8BC40092725F /* 11729_HanoiTower.swift */; };
 		D46853F6272F9A250092725F /* 1074_Z.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46853F5272F9A250092725F /* 1074_Z.swift */; };
 		D46853F82730C86C0092725F /* 1182_부분수열의합.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46853F72730C86C0092725F /* 1182_부분수열의합.swift */; };
+		D46853FB27320E5D0092725F /* Tumblbug_Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46853FA27320E5D0092725F /* Tumblbug_Problem1.swift */; };
+		D46853FD27320E690092725F /* Tumblbug_Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46853FC27320E690092725F /* Tumblbug_Problem2.swift */; };
+		D46853FF27320F290092725F /* Tumblbug_Problem3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46853FE27320F290092725F /* Tumblbug_Problem3.swift */; };
 		D472733426FD719B00771FBB /* CountBoundedSlice.swift in Sources */ = {isa = PBXBuildFile; fileRef = D472733326FD719B00771FBB /* CountBoundedSlice.swift */; };
 		D4727337270067D900771FBB /* MR_Problem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4727336270067D900771FBB /* MR_Problem1.swift */; };
 		D4727339270067E700771FBB /* MR_Problem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4727338270067E700771FBB /* MR_Problem2.swift */; };
@@ -192,6 +195,9 @@
 		D46853F3272F8BC40092725F /* 11729_HanoiTower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 11729_HanoiTower.swift; sourceTree = "<group>"; };
 		D46853F5272F9A250092725F /* 1074_Z.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1074_Z.swift; sourceTree = "<group>"; };
 		D46853F72730C86C0092725F /* 1182_부분수열의합.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "1182_부분수열의합.swift"; sourceTree = "<group>"; };
+		D46853FA27320E5D0092725F /* Tumblbug_Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumblbug_Problem1.swift; sourceTree = "<group>"; };
+		D46853FC27320E690092725F /* Tumblbug_Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumblbug_Problem2.swift; sourceTree = "<group>"; };
+		D46853FE27320F290092725F /* Tumblbug_Problem3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tumblbug_Problem3.swift; sourceTree = "<group>"; };
 		D472733326FD719B00771FBB /* CountBoundedSlice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountBoundedSlice.swift; sourceTree = "<group>"; };
 		D4727336270067D900771FBB /* MR_Problem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MR_Problem1.swift; sourceTree = "<group>"; };
 		D4727338270067E700771FBB /* MR_Problem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MR_Problem2.swift; sourceTree = "<group>"; };
@@ -334,6 +340,16 @@
 			path = Kakao_Mobility;
 			sourceTree = "<group>";
 		};
+		D46853F927320E460092725F /* Tumblbug */ = {
+			isa = PBXGroup;
+			children = (
+				D46853FA27320E5D0092725F /* Tumblbug_Problem1.swift */,
+				D46853FC27320E690092725F /* Tumblbug_Problem2.swift */,
+				D46853FE27320F290092725F /* Tumblbug_Problem3.swift */,
+			);
+			path = Tumblbug;
+			sourceTree = "<group>";
+		};
 		D4727335270067C900771FBB /* MyRealTrip */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,6 +409,7 @@
 			isa = PBXGroup;
 			children = (
 				D4AE64842692A4D200A96D97 /* main.swift */,
+				D46853F927320E460092725F /* Tumblbug */,
 				D46853EC272B9E040092725F /* Kakao_Mobility */,
 				D46853E3272A54390092725F /* 카닥코퍼레이션 */,
 				D4727335270067C900771FBB /* MyRealTrip */,
@@ -710,6 +727,7 @@
 				D414849D26BD19C50034DF4A /* 17_LetterCombinations.swift in Sources */,
 				D46853F4272F8BC50092725F /* 11729_HanoiTower.swift in Sources */,
 				D414846E26BAF16A0034DF4A /* 373_FindKPairs.swift in Sources */,
+				D46853FD27320E690092725F /* Tumblbug_Problem2.swift in Sources */,
 				D4BCFB7F26D49CD700323CF5 /* 26_RemoveDuplicatesFromSortedArray.swift in Sources */,
 				D4ECDAFE26EAFF40003D3C99 /* 617_MergeTwoBinaryTrees.swift in Sources */,
 				D4C914D926F37B4000CD072C /* TennisTournament.swift in Sources */,
@@ -780,6 +798,7 @@
 				D48FDAF126DB3A05003BCB0F /* 704_BinarySearch.swift in Sources */,
 				D4ECDB0626EC7162003D3C99 /* Problem1.swift in Sources */,
 				D4C914D526F34C1B00CD072C /* BinaryGap.swift in Sources */,
+				D46853FB27320E5D0092725F /* Tumblbug_Problem1.swift in Sources */,
 				D4E7195026F8312100461396 /* TreeHeight.swift in Sources */,
 				D4C914F126F5EFEF00CD072C /* Baemin_Problem1.swift in Sources */,
 				D4AF9E3626DDD15F00E69A28 /* 1137_TribonacciNumber.swift in Sources */,
@@ -791,6 +810,7 @@
 				D438456326D9F98100FEC869 /* 283_MoveZeros.swift in Sources */,
 				D414846C26BA330C0034DF4A /* KeysAndRooms.swift in Sources */,
 				D4B26D5926EF101B003DCAA1 /* OpenChatting.swift in Sources */,
+				D46853FF27320F290092725F /* Tumblbug_Problem3.swift in Sources */,
 				D4BCFB5126CE529E00323CF5 /* 15649_NAndM.swift in Sources */,
 				D4AE649D2696E33500A96D97 /* Duplicate.swift in Sources */,
 				D46853F0272B9E200092725F /* Mobility_Problem2.swift in Sources */,
