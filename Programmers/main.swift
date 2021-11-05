@@ -28,5 +28,8 @@ import Foundation
 //
 //Ex_13.main()
 
-print(Tumblbug_Problem2.solution(21))
-print(Tumblbug_Problem2.solution(111))
+print(DecodeWays.solution("11106"))
+print(DecodeWays.solution("12"))
+print(DecodeWays.solution("226"))
+print(DecodeWays.solution("06"))
+print(DecodeWays.solution("10"))
