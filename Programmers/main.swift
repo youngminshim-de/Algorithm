@@ -28,8 +28,4 @@ import Foundation
 //
 //Ex_13.main()
 
-print(DecodeWays.solution("11106"))
-print(DecodeWays.solution("12"))
-print(DecodeWays.solution("226"))
-print(DecodeWays.solution("06"))
-print(DecodeWays.solution("10"))
+print(Tiling.solution())
